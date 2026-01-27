@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export CURRENT_SEASON=season-23
+export DATA_FOLDER=/home/mnpdocker/apps/mnpdocker/mnp-data-archive
+node ../../../main/importers/export-season.js season-23 > rosters.csv
+export DATA_FOLDER=/home/mnpdocker/apps/mnpdocker/main/data
+node ../../../main/importers/import-season.js season-23
+node ../../../main/util/spawn-matches.js

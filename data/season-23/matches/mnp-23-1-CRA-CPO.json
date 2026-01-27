@@ -1,0 +1,301 @@
+{
+  "key": "mnp-23-1-CRA-CPO",
+  "name": "WK1 CRA @ CPO",
+  "type": "manual",
+  "week": "1",
+  "round": 1,
+  "create_at": 1769511068499,
+  "date": "01/27/2026",
+  "state": "pregame",
+  "state_at": 1769511068499,
+  "venue": {
+    "key": "ANC",
+    "name": "Another Castle",
+    "machines": [
+      "8Ball",
+      "Spiderman",
+      "MB",
+      "AFM",
+      "Godzilla",
+      "Jurassic",
+      "DRAGON",
+      "Monopoly",
+      "GOT",
+      "MM",
+      "Jaws",
+      "Sopranos",
+      "RollerCoaster",
+      "STMNT",
+      "CactusCanyon",
+      "BOP",
+      "PULP",
+      "CA",
+      "SDND",
+      "KONG",
+      "SWFOTE",
+      "4 Aces",
+      "TAF"
+    ]
+  },
+  "away": {
+    "name": "Castle Crashers",
+    "key": "CRA",
+    "captains": [
+      {
+        "key": "07ebb404cc00e5e0ee124c5be2f175a9797a7d4d",
+        "name": "Joshua Francis"
+      },
+      {
+        "key": "4726eeda5efca087ce5a13055efea8100f1946f6",
+        "name": "Chris Tinney"
+      }
+    ],
+    "lineup": [
+      {
+        "key": "39e3de381fb471dcbc6bb22b34ff60c30aef60b9",
+        "name": "Armand Go",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 6
+      },
+      {
+        "key": "4726eeda5efca087ce5a13055efea8100f1946f6",
+        "name": "Chris Tinney",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 5
+      },
+      {
+        "key": "56335b2fe771740bc10bc15f6de8f0a98eda2f73",
+        "name": "Connor Vermeys",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 6
+      },
+      {
+        "key": "00140d700327c3273d42776345311d0126de5cbc",
+        "name": "Craig R Jones",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
+      },
+      {
+        "key": "a535e9cfba088934b8c00af598634681a3439ff9",
+        "name": "Jay Ostby",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 3
+      },
+      {
+        "key": "07ebb404cc00e5e0ee124c5be2f175a9797a7d4d",
+        "name": "Joshua Francis",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 6
+      },
+      {
+        "key": "21c2dfd8bcfcb7cb45abb65d3cbfc88af62e90f7",
+        "name": "Justin Ari",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 5
+      },
+      {
+        "key": "bd94465931a6297c2334f886a1935af8d5176654",
+        "name": "Ken Disbennett",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 3
+      },
+      {
+        "key": "f4b767b8845afddd8c02b15d8f02df194d05f787",
+        "name": "MJ Moscola",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
+      },
+      {
+        "key": "9d26c040110deeeb3a4c3ba8ff191bb158c1df72",
+        "name": "Nate Tompkins",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 2
+      }
+    ]
+  },
+  "home": {
+    "name": "Pants Optional",
+    "key": "CPO",
+    "captains": [
+      {
+        "key": "5c4cf1d87119391ff84651a08f6094023f18c19e",
+        "name": "Mandy Woodard"
+      },
+      {
+        "key": "2738b5f280961ae82e81d82612bba4ee8516c3a2",
+        "name": "Liberty Ruderman"
+      }
+    ],
+    "lineup": [
+      {
+        "key": "388a0814cbf4f99c69365db98a7f1808aa0fe0c5",
+        "name": "Aaron Garberding",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 5
+      },
+      {
+        "key": "b6fbf658e465c9f6745f0c4cfe936c760ab7c2d3",
+        "name": "Erik Rikansrud",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 4
+      },
+      {
+        "key": "8683313df13ab0e71f94ec155a0ed0bd506de5ff",
+        "name": "Evan Adkins",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 3
+      },
+      {
+        "key": "7471f2bedf425a1f348ab5914d9feddf5ca5762a",
+        "name": "Lefty Sitaras",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 2
+      },
+      {
+        "key": "2738b5f280961ae82e81d82612bba4ee8516c3a2",
+        "name": "Liberty Ruderman",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 5
+      },
+      {
+        "key": "5c4cf1d87119391ff84651a08f6094023f18c19e",
+        "name": "Mandy Woodard",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 2
+      },
+      {
+        "key": "8592fc61c15ab1fdcaafb2e73455e7fa8176b7ee",
+        "name": "Michael Miller",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
+      },
+      {
+        "key": "b906f43b6512717222eea955c5f292a0e1b3d3ba",
+        "name": "Owen Weyland",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 6
+      },
+      {
+        "key": "a176d82eadb6782af835df7dc74beb3c6caab186",
+        "name": "Sandy Magallanes",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
+      },
+      {
+        "key": "4bab73c0602e525904b8d3e1e99952cc083bdf49",
+        "name": "William Scott Jordan",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 3
+      }
+    ]
+  },
+  "rounds": [
+    {
+      "n": 1,
+      "games": [
+        {
+          "n": 1
+        },
+        {
+          "n": 2
+        },
+        {
+          "n": 3
+        },
+        {
+          "n": 4
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "games": [
+        {
+          "n": 1
+        },
+        {
+          "n": 2
+        },
+        {
+          "n": 3
+        },
+        {
+          "n": 4
+        },
+        {
+          "n": 5
+        },
+        {
+          "n": 6
+        },
+        {
+          "n": 7
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "games": [
+        {
+          "n": 1
+        },
+        {
+          "n": 2
+        },
+        {
+          "n": 3
+        },
+        {
+          "n": 4
+        },
+        {
+          "n": 5
+        },
+        {
+          "n": 6
+        },
+        {
+          "n": 7
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "games": [
+        {
+          "n": 1
+        },
+        {
+          "n": 2
+        },
+        {
+          "n": 3
+        },
+        {
+          "n": 4
+        }
+      ]
+    }
+  ],
+  "players": []
+}

@@ -25,12 +25,12 @@ var announcementsContent = fs.readFileSync('./template/index.html').toString();
 
 router.get('/',function(req,res) {
   // refresh announcements
-  https.get(ANNOUNCEMENTS_TEMPLATE_URL, response => {
-    announcementsContent = ""
-    response.on('data',(chunk)=>{
-      announcementsContent+=chunk.toString();
-    });
-  });
+//  https.get(ANNOUNCEMENTS_TEMPLATE_URL, response => {
+//    announcementsContent = ""
+//    response.on('data',(chunk)=>{
+//      announcementsContent+=chunk.toString();
+//    });
+//  });
   
   const html = mustache.render(base,{
     title: 'Home'

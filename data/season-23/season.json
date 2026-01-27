@@ -1,0 +1,2542 @@
+{
+  "key": "season-23",
+  "teams": {
+    "ADB": {
+      "key": "ADB",
+      "venue": "ADM",
+      "name": "Admiraballs",
+      "roster": [
+        {
+          "name": "Bob Lyman"
+        },
+        {
+          "name": "Chris Borgstadt"
+        },
+        {
+          "name": "Jackson McComish"
+        },
+        {
+          "name": "Jerry Duncan"
+        },
+        {
+          "name": "Michael Tomber"
+        },
+        {
+          "name": "Mohamed Sawani"
+        },
+        {
+          "name": "Nichole Casado"
+        },
+        {
+          "name": "Scott Lee WA"
+        },
+        {
+          "name": "Seth Smith"
+        },
+        {
+          "name": "Thomas Homan"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-ADB-ICB",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "ICB",
+            "name": "Incrediballs"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Chris Borgstadt",
+      "captain": "Michael Tomber"
+    },
+    "BAD": {
+      "key": "BAD",
+      "venue": "AAB",
+      "name": "Bad Cats",
+      "roster": [
+        {
+          "name": "Amber Roy"
+        },
+        {
+          "name": "Chaynee Young"
+        },
+        {
+          "name": "Chelsie Hulka"
+        },
+        {
+          "name": "Chloe LeGrow"
+        },
+        {
+          "name": "Guadalupe Bryan"
+        },
+        {
+          "name": "Jenny Pickens"
+        },
+        {
+          "name": "Leslie Ruckman"
+        },
+        {
+          "name": "Nausicaa Warner"
+        },
+        {
+          "name": "Ren Logan"
+        },
+        {
+          "name": "Sarah Munden"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-BAD-BAD",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "BAD",
+            "name": "Bad Cats"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-BAD-BAD",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "BAD",
+            "name": "Bad Cats"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Chloe LeGrow",
+      "co_captain": "Ren Logan"
+    },
+    "CRA": {
+      "key": "CRA",
+      "venue": "ANC",
+      "name": "Castle Crashers",
+      "roster": [
+        {
+          "name": "Armand Go"
+        },
+        {
+          "name": "Chris Tinney"
+        },
+        {
+          "name": "Connor Vermeys"
+        },
+        {
+          "name": "Craig R Jones"
+        },
+        {
+          "name": "Jay Ostby"
+        },
+        {
+          "name": "Joshua Francis"
+        },
+        {
+          "name": "Justin Ari"
+        },
+        {
+          "name": "Ken Disbennett"
+        },
+        {
+          "name": "MJ Moscola"
+        },
+        {
+          "name": "Nate Tompkins"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-CRA-CPO",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "CPO",
+            "name": "Pants Optional"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Chris Tinney",
+      "captain": "Joshua Francis"
+    },
+    "TRL": {
+      "key": "TRL",
+      "venue": "T4B",
+      "name": "Trolls!",
+      "roster": [
+        {
+          "name": "Amy Frame"
+        },
+        {
+          "name": "Angie Parker"
+        },
+        {
+          "name": "Benny Phanichkul"
+        },
+        {
+          "name": "Brandon Lorenz"
+        },
+        {
+          "name": "Dj Youngblood"
+        },
+        {
+          "name": "Forrest McIntyre"
+        },
+        {
+          "name": "Jeremy Collison"
+        },
+        {
+          "name": "Josh Neuens"
+        },
+        {
+          "name": "Mark McClure"
+        },
+        {
+          "name": "Rob Homan WA"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-TRL-TRL",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "TRL",
+            "name": "Trolls!"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TRL-TRL",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "TRL",
+            "name": "Trolls!"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Forrest McIntyre",
+      "captain": "Mark McClure"
+    },
+    "DSV": {
+      "key": "DSV",
+      "venue": "AAB",
+      "name": "Death Savers",
+      "roster": [
+        {
+          "name": "Audrey Fleck"
+        },
+        {
+          "name": "Chryste Ferrara"
+        },
+        {
+          "name": "Dave Stewart"
+        },
+        {
+          "name": "Douglas Hansen"
+        },
+        {
+          "name": "Emma Frost"
+        },
+        {
+          "name": "Jake Hei"
+        },
+        {
+          "name": "Jordan Shankle"
+        },
+        {
+          "name": "Kiki V"
+        },
+        {
+          "name": "Max Stewart"
+        },
+        {
+          "name": "Zac Petersen"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-DSV-DSV",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "DSV",
+            "name": "Death Savers"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DSV-DSV",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "DSV",
+            "name": "Death Savers"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Emma Frost",
+      "captain": "Zac Petersen"
+    },
+    "DIH": {
+      "key": "DIH",
+      "venue": "SHR",
+      "name": "Drain in Hell",
+      "roster": [
+        {
+          "name": "Clare Newell"
+        },
+        {
+          "name": "Danae Hackett"
+        },
+        {
+          "name": "Gus Voss"
+        },
+        {
+          "name": "Jacque Simmons"
+        },
+        {
+          "name": "Jay Sweeney"
+        },
+        {
+          "name": "Kourtne Kaoss"
+        },
+        {
+          "name": "Lucy Hoffman"
+        },
+        {
+          "name": "Madison Masterson"
+        },
+        {
+          "name": "Matthew Levi Tate"
+        },
+        {
+          "name": "Ryan Tamm"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-DIH-SSS",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "SSS",
+            "name": "Silverball Slayers"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Gus Voss",
+      "co_captain": "Madison Masterson"
+    },
+    "DTP": {
+      "key": "DTP",
+      "venue": "JUP",
+      "name": "DTP",
+      "roster": [
+        {
+          "name": "Alex Hawley"
+        },
+        {
+          "name": "Alex Skinner "
+        },
+        {
+          "name": "Dwayne Collins"
+        },
+        {
+          "name": "Kevin Coffey"
+        },
+        {
+          "name": "Kristin Vick"
+        },
+        {
+          "name": "Marissa Rodriguez"
+        },
+        {
+          "name": "Matthew Sherwood"
+        },
+        {
+          "name": "Nick Taseris"
+        },
+        {
+          "name": "Ryan Loftus"
+        },
+        {
+          "name": "Tom Baisden"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-DTP-DTP",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "DTP",
+            "name": "DTP"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DTP-DTP",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "DTP",
+            "name": "DTP"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Alex Skinner ",
+      "captain": "Dwayne Collins"
+    },
+    "ETB": {
+      "key": "ETB",
+      "venue": "TDN",
+      "name": "Eighteen Ball Deluxe",
+      "roster": [
+        {
+          "name": "Bill Nary"
+        },
+        {
+          "name": "Eva Ngo"
+        },
+        {
+          "name": "John McConnell"
+        },
+        {
+          "name": "John Robinson WA"
+        },
+        {
+          "name": "Kevin Kelly"
+        },
+        {
+          "name": "Kevin Rayo"
+        },
+        {
+          "name": "Mitchell D. Anderson"
+        },
+        {
+          "name": "Rhett Pearson"
+        },
+        {
+          "name": "Shaun Crumb"
+        },
+        {
+          "name": "Stephen Frontis"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-ETB-ETB",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "ETB",
+            "name": "Eighteen Ball Deluxe"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-ETB-ETB",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "ETB",
+            "name": "Eighteen Ball Deluxe"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "John McConnell",
+      "co_captain": "Rhett Pearson"
+    },
+    "FBP": {
+      "key": "FBP",
+      "venue": "JUP",
+      "name": "Flippin Big Points",
+      "roster": [
+        {
+          "name": "Brian Reinhard"
+        },
+        {
+          "name": "Clay Shelton"
+        },
+        {
+          "name": "Dakota Green"
+        },
+        {
+          "name": "Dakota Warden"
+        },
+        {
+          "name": "Los Rangel"
+        },
+        {
+          "name": "Lui Rangel"
+        },
+        {
+          "name": "Mae Collin"
+        },
+        {
+          "name": "Melanie Meyer WA"
+        },
+        {
+          "name": "Xander Jackson"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-FBP-FBP",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "FBP",
+            "name": "Flippin Big Points"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-FBP-FBP",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "FBP",
+            "name": "Flippin Big Points"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Clay Shelton",
+      "captain": "Dakota Warden"
+    },
+    "HHS": {
+      "key": "HHS",
+      "venue": "KRA",
+      "name": "Hellhounds",
+      "roster": [
+        {
+          "name": "Andrew Hopper"
+        },
+        {
+          "name": "Clare Green"
+        },
+        {
+          "name": "Daniel Mays"
+        },
+        {
+          "name": "Gage Glupker"
+        },
+        {
+          "name": "Jon-Kiefer Bowne"
+        },
+        {
+          "name": "Kali Banks"
+        },
+        {
+          "name": "Rebekah Macneil"
+        },
+        {
+          "name": "Rinalldo Robinson"
+        },
+        {
+          "name": "Trevor Leonard"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-HHS-SKP",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "SKP",
+            "name": "Slap Kraken Pop"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Clare Green",
+      "co_captain": "Daniel Mays"
+    },
+    "ICB": {
+      "key": "ICB",
+      "venue": "ADM",
+      "name": "Incrediballs",
+      "roster": [
+        {
+          "name": "Billy Conwell"
+        },
+        {
+          "name": "Jeremy Edwards"
+        },
+        {
+          "name": "Jessica Savieo"
+        },
+        {
+          "name": "Joshua Chandler"
+        },
+        {
+          "name": "Landon Martin WA"
+        },
+        {
+          "name": "Marisa Figueroa"
+        },
+        {
+          "name": "Melanie Howard"
+        },
+        {
+          "name": "Quinn Thomas"
+        },
+        {
+          "name": "Rachel Jarvis"
+        },
+        {
+          "name": "Robyn Houseworth"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-ADB-ICB",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "ADB",
+            "name": "Admiraballs"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Billy Conwell",
+      "captain": "Quinn Thomas"
+    },
+    "KNR": {
+      "key": "KNR",
+      "venue": "GPA",
+      "name": "Knight Riders",
+      "roster": [
+        {
+          "name": "Bubbles Shaiman"
+        },
+        {
+          "name": "Danny Fair"
+        },
+        {
+          "name": "Jake Selby"
+        },
+        {
+          "name": "Jessica Rakonza"
+        },
+        {
+          "name": "Jon Shaiman"
+        },
+        {
+          "name": "Josh Teodoro"
+        },
+        {
+          "name": "Lee Ford"
+        },
+        {
+          "name": "Mack Rote"
+        },
+        {
+          "name": "Stephen Rakonza"
+        },
+        {
+          "name": "Tommy Schessler"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-KNR-KNR",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "KNR",
+            "name": "Knight Riders"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-KNR-KNR",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "KNR",
+            "name": "Knight Riders"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Jon Shaiman",
+      "captain": "Stephen Rakonza"
+    },
+    "LAS": {
+      "key": "LAS",
+      "venue": "IBX",
+      "name": "Little League All Stars",
+      "roster": [
+        {
+          "name": "Adam Livengood"
+        },
+        {
+          "name": "Brandon Pietenpol"
+        },
+        {
+          "name": "Colin O'Keefe"
+        },
+        {
+          "name": "Danielle Wilcox"
+        },
+        {
+          "name": "Jared Bayliss"
+        },
+        {
+          "name": "Jon Erickson WA"
+        },
+        {
+          "name": "Kelli Goins"
+        },
+        {
+          "name": "Michael Fricke"
+        },
+        {
+          "name": "Robbie Finnigan"
+        },
+        {
+          "name": "Rolo Carey"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-LAS-LAS",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "LAS",
+            "name": "Little League All Stars"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-LAS-LAS",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "LAS",
+            "name": "Little League All Stars"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Danielle Wilcox",
+      "captain": "Jared Bayliss"
+    },
+    "RMS": {
+      "key": "RMS",
+      "venue": "RAY",
+      "name": "Magic Saves",
+      "roster": [
+        {
+          "name": "Dillon Heath"
+        },
+        {
+          "name": "Eric Chambers"
+        },
+        {
+          "name": "Jandy Stephens"
+        },
+        {
+          "name": "Jon Bell"
+        },
+        {
+          "name": "Kevin Deschenes"
+        },
+        {
+          "name": "Matt Grunewald"
+        },
+        {
+          "name": "Michael Zuino"
+        },
+        {
+          "name": "Michelle Loprieno"
+        },
+        {
+          "name": "Ryan Malone"
+        },
+        {
+          "name": "Scott Kelly"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-RMS-RMS",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "RMS",
+            "name": "Magic Saves"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-RMS-RMS",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "RMS",
+            "name": "Magic Saves"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Eric Chambers",
+      "captain": "Michael Zuino"
+    },
+    "JMF": {
+      "key": "JMF",
+      "venue": "JUP",
+      "name": "Middle Flippers",
+      "roster": [
+        {
+          "name": "Alisha Maligon"
+        },
+        {
+          "name": "Bre Lloyd"
+        },
+        {
+          "name": "Diane Panagiotopoulos"
+        },
+        {
+          "name": "Ian Lucas"
+        },
+        {
+          "name": "Jeff Dewitt"
+        },
+        {
+          "name": "Jeff Dicker"
+        },
+        {
+          "name": "Jimmie Eiseman"
+        },
+        {
+          "name": "Matthew Dane Anderson"
+        },
+        {
+          "name": "Nate Cantor"
+        },
+        {
+          "name": "Sam Stiles"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-JMF-JMF",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "JMF",
+            "name": "Middle Flippers"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-JMF-JMF",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "JMF",
+            "name": "Middle Flippers"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Diane Panagiotopoulos",
+      "captain": "Nate Cantor"
+    },
+    "NMC": {
+      "key": "NMC",
+      "venue": "TWP",
+      "name": "Neuromancers",
+      "roster": [
+        {
+          "name": "Andrew Meuser"
+        },
+        {
+          "name": "Brian Baskoff"
+        },
+        {
+          "name": "Cassandra Dymock"
+        },
+        {
+          "name": "Emily Hunter WA"
+        },
+        {
+          "name": "Jennell Baldwin"
+        },
+        {
+          "name": "Joe Ricci"
+        },
+        {
+          "name": "Sean Bray"
+        },
+        {
+          "name": "Tim Uomoto"
+        },
+        {
+          "name": "Todd Brown"
+        },
+        {
+          "name": "Wardell Baldwin III"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-NMC-NMC",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "NMC",
+            "name": "Neuromancers"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-NMC-NMC",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "NMC",
+            "name": "Neuromancers"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Sean Bray",
+      "captain": "Tim Uomoto"
+    },
+    "NLT": {
+      "key": "NLT",
+      "venue": "OLF",
+      "name": "Northern Lights",
+      "roster": [
+        {
+          "name": "Brett Wolfe"
+        },
+        {
+          "name": "Colin Curfman"
+        },
+        {
+          "name": "Cory Lampe"
+        },
+        {
+          "name": "Evan Eckles"
+        },
+        {
+          "name": "Evan Matt"
+        },
+        {
+          "name": "Jason Heitt"
+        },
+        {
+          "name": "Jeff Dillaman"
+        },
+        {
+          "name": "Nate Sloat"
+        },
+        {
+          "name": "Steve Hedback"
+        },
+        {
+          "name": "Tristan Ward"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-NLT-NLT",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "NLT",
+            "name": "Northern Lights"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-NLT-NLT",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "NLT",
+            "name": "Northern Lights"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Evan Eckles",
+      "captain": "Jeff Dillaman"
+    },
+    "CPO": {
+      "key": "CPO",
+      "venue": "ANC",
+      "name": "Pants Optional",
+      "roster": [
+        {
+          "name": "Aaron Garberding"
+        },
+        {
+          "name": "Erik Rikansrud"
+        },
+        {
+          "name": "Evan Adkins"
+        },
+        {
+          "name": "Lefty Sitaras"
+        },
+        {
+          "name": "Liberty Ruderman"
+        },
+        {
+          "name": "Mandy Woodard"
+        },
+        {
+          "name": "Michael Miller"
+        },
+        {
+          "name": "Owen Weyland"
+        },
+        {
+          "name": "Sandy Magallanes"
+        },
+        {
+          "name": "William Scott Jordan"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-CRA-CPO",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "CRA",
+            "name": "Castle Crashers"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Liberty Ruderman",
+      "captain": "Mandy Woodard"
+    },
+    "PYC": {
+      "key": "PYC",
+      "venue": "IBX",
+      "name": "Pinballycule",
+      "roster": [
+        {
+          "name": "Andyroo Callan"
+        },
+        {
+          "name": "Astri Niederkorn"
+        },
+        {
+          "name": "Bobby Boden"
+        },
+        {
+          "name": "Chase Engdall"
+        },
+        {
+          "name": "Donna Hucklebee"
+        },
+        {
+          "name": "Genevieve Forrester"
+        },
+        {
+          "name": "Hunter Vogt"
+        },
+        {
+          "name": "Jarrett Gaddy"
+        },
+        {
+          "name": "Mason Dunbar"
+        },
+        {
+          "name": "Matt Galbraith"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-PYC-PYC",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "PYC",
+            "name": "Pinballycule"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-PYC-PYC",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "PYC",
+            "name": "Pinballycule"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Andyroo Callan",
+      "co_captain": "Hunter Vogt"
+    },
+    "PGN": {
+      "key": "PGN",
+      "venue": "8BT",
+      "name": "Pinguins",
+      "roster": [
+        {
+          "name": "Altwin Hawksford"
+        },
+        {
+          "name": "Canyon Mosely"
+        },
+        {
+          "name": "Emily Henshaw"
+        },
+        {
+          "name": "Forrest Avery"
+        },
+        {
+          "name": "Jonathan Allen"
+        },
+        {
+          "name": "Julianne Hassman"
+        },
+        {
+          "name": "Peyton Conrad"
+        },
+        {
+          "name": "Ryan Tupper"
+        },
+        {
+          "name": "Sebastian Jennings"
+        },
+        {
+          "name": "Sookie Sookram"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-PGN-SWL",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "SWL",
+            "name": "Specials When Lit"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Peyton Conrad",
+      "captain": "Ryan Tupper"
+    },
+    "PKT": {
+      "key": "PKT",
+      "venue": "COP",
+      "name": "Pocketeers",
+      "roster": [
+        {
+          "name": "Andrew Furdell"
+        },
+        {
+          "name": "Chris Vela"
+        },
+        {
+          "name": "Elena Wright"
+        },
+        {
+          "name": "Emily Young"
+        },
+        {
+          "name": "James Furdell"
+        },
+        {
+          "name": "Kelsie Sherman Hall"
+        },
+        {
+          "name": "Lonnie Langford"
+        },
+        {
+          "name": "Mandie Moore"
+        },
+        {
+          "name": "Nick Filer"
+        },
+        {
+          "name": "Randall Olson"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-PKT-SRF",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "SRF",
+            "name": "Surf Champs"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Emily Young",
+      "captain": "Lonnie Langford"
+    },
+    "PBR": {
+      "key": "PBR",
+      "venue": "AAB",
+      "name": "Point Breakers",
+      "roster": [
+        {
+          "name": "Amber Marie Simon"
+        },
+        {
+          "name": "Ben Simmons"
+        },
+        {
+          "name": "Casey Benton"
+        },
+        {
+          "name": "Clayton Stetz"
+        },
+        {
+          "name": "Hayden McCabe"
+        },
+        {
+          "name": "Landon Cross"
+        },
+        {
+          "name": "Liz Brotman"
+        },
+        {
+          "name": "Matt Golden"
+        },
+        {
+          "name": "Michael Ulmen"
+        },
+        {
+          "name": "Mickey Nussbaumer"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-PBR-PBR",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "PBR",
+            "name": "Point Breakers"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-PBR-PBR",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "PBR",
+            "name": "Point Breakers"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Clayton Stetz",
+      "captain": "Michael Ulmen"
+    },
+    "RTR": {
+      "key": "RTR",
+      "venue": "T4B",
+      "name": "Ramp Tramps",
+      "roster": [
+        {
+          "name": "Andrew Cole WA"
+        },
+        {
+          "name": "Andy Yarritu"
+        },
+        {
+          "name": "Brian Kirk WA"
+        },
+        {
+          "name": "Brian O'Neill WA"
+        },
+        {
+          "name": "Brooke Borcherding"
+        },
+        {
+          "name": "Chelsea Rakonza"
+        },
+        {
+          "name": "Emily Beirne"
+        },
+        {
+          "name": "Isaac Kaplan-Woolner"
+        },
+        {
+          "name": "Jason Boekeloo"
+        },
+        {
+          "name": "Maureen Hendrix"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-RTR-RTR",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "RTR",
+            "name": "Ramp Tramps"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-RTR-RTR",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "RTR",
+            "name": "Ramp Tramps"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Isaac Kaplan-Woolner",
+      "captain": "Maureen Hendrix"
+    },
+    "SSD": {
+      "key": "SSD",
+      "venue": "BSS",
+      "name": "Salty Sea Dogs",
+      "roster": [
+        {
+          "name": "Demarus Tevuk"
+        },
+        {
+          "name": "Donna Ruacho"
+        },
+        {
+          "name": "Evan O'Brien"
+        },
+        {
+          "name": "James Frost-Winn"
+        },
+        {
+          "name": "Jesse Fallahi"
+        },
+        {
+          "name": "Kieonna Ford"
+        },
+        {
+          "name": "Lauren Aiello"
+        },
+        {
+          "name": "Sean Gallagher"
+        },
+        {
+          "name": "Spencer Anderson"
+        },
+        {
+          "name": "Tyler Morgan"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-BLK-SSD",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "BLK",
+            "name": "Ballard Locks"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "James Frost-Winn",
+      "captain": "Lauren Aiello"
+    },
+    "SCN": {
+      "key": "SCN",
+      "venue": "GPA",
+      "name": "Seacorns",
+      "roster": [
+        {
+          "name": "Claire Burke"
+        },
+        {
+          "name": "Corbin Sheffels"
+        },
+        {
+          "name": "Danielle Crowson"
+        },
+        {
+          "name": "Jesse Labbe"
+        },
+        {
+          "name": "Lucas Marcolongo"
+        },
+        {
+          "name": "Michael Adcock"
+        },
+        {
+          "name": "Nic Crowson"
+        },
+        {
+          "name": "Nick Delehanty"
+        },
+        {
+          "name": "Olivia Orni"
+        },
+        {
+          "name": "Shirley Recinos"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-SCN-SCN",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "SCN",
+            "name": "Seacorns"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-SCN-SCN",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "SCN",
+            "name": "Seacorns"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Claire Burke",
+      "captain": "Danielle Crowson"
+    },
+    "SHK": {
+      "key": "SHK",
+      "venue": "WAT",
+      "name": "Sharks",
+      "roster": [
+        {
+          "name": "Curtis Granger"
+        },
+        {
+          "name": "Janelle Oakley"
+        },
+        {
+          "name": "Kat Martinez"
+        },
+        {
+          "name": "Mattie Stephens"
+        },
+        {
+          "name": "Nell Rose"
+        },
+        {
+          "name": "Nicole Svoboda"
+        },
+        {
+          "name": "Nix Brown "
+        },
+        {
+          "name": "Ryan Winslow"
+        },
+        {
+          "name": "Tony Ryder"
+        },
+        {
+          "name": "Zachary Turner"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-SHK-SHK",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "SHK",
+            "name": "Sharks"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-SHK-SHK",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "SHK",
+            "name": "Sharks"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Tony Ryder",
+      "captain": "Zachary Turner"
+    },
+    "SSS": {
+      "key": "SSS",
+      "venue": "SHR",
+      "name": "Silverball Slayers",
+      "roster": [
+        {
+          "name": "Andrew Stauffer"
+        },
+        {
+          "name": "Brad Hayden"
+        },
+        {
+          "name": "Brian Chesbrough"
+        },
+        {
+          "name": "Graham Klym"
+        },
+        {
+          "name": "Heather Loudon"
+        },
+        {
+          "name": "Jette Chhoun"
+        },
+        {
+          "name": "Matt Slater"
+        },
+        {
+          "name": "Ryan Slanicka"
+        },
+        {
+          "name": "Tom Walsh WA"
+        },
+        {
+          "name": "Vincent Sperrazza"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-DIH-SSS",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "DIH",
+            "name": "Drain in Hell"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Brian Chesbrough",
+      "captain": "Heather Loudon"
+    },
+    "SKP": {
+      "key": "SKP",
+      "venue": "KRA",
+      "name": "Slap Kraken Pop",
+      "roster": [
+        {
+          "name": "Jenny Vidovic"
+        },
+        {
+          "name": "Misha Alexeeff"
+        },
+        {
+          "name": "Morgan Verburg"
+        },
+        {
+          "name": "Nick Gibson"
+        },
+        {
+          "name": "Paul White WA"
+        },
+        {
+          "name": "Ryan Odonnell CA"
+        },
+        {
+          "name": "Shawnna Kenney"
+        },
+        {
+          "name": "Tino Stivaros"
+        },
+        {
+          "name": "Zeb Virkus"
+        },
+        {
+          "name": "Zoe Ackerman"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-HHS-SKP",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "HHS",
+            "name": "Hellhounds"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Jenny Vidovic",
+      "captain": "Paul White WA"
+    },
+    "SWL": {
+      "key": "SWL",
+      "venue": "8BT",
+      "name": "Specials When Lit",
+      "roster": [
+        {
+          "name": "Ashley Weaver"
+        },
+        {
+          "name": "Breanna Felix"
+        },
+        {
+          "name": "Chris Chinn"
+        },
+        {
+          "name": "Clinton Peterson"
+        },
+        {
+          "name": "Joel Friedrick"
+        },
+        {
+          "name": "John Garnett"
+        },
+        {
+          "name": "Jon Jow"
+        },
+        {
+          "name": "Katie Eichenberger"
+        },
+        {
+          "name": "Matt Anderson WA"
+        },
+        {
+          "name": "Tim Collins"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-PGN-SWL",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "PGN",
+            "name": "Pinguins"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "John Garnett",
+      "captain": "Matt Anderson WA"
+    },
+    "TBT": {
+      "key": "TBT",
+      "venue": "T4B",
+      "name": "The B Team",
+      "roster": [
+        {
+          "name": "Adam Smith"
+        },
+        {
+          "name": "Alex Singleterry"
+        },
+        {
+          "name": "Andy Bernard"
+        },
+        {
+          "name": "Campbell Hancock"
+        },
+        {
+          "name": "Dan Doherty"
+        },
+        {
+          "name": "David Chernicoff"
+        },
+        {
+          "name": "Dina Robinson"
+        },
+        {
+          "name": "Jared Gamble"
+        },
+        {
+          "name": "Joseph Salender"
+        },
+        {
+          "name": "Ryan McMillan"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-TBT-TBT",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "TBT",
+            "name": "The B Team"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TBT-TBT",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "TBT",
+            "name": "The B Team"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Campbell Hancock",
+      "co_captain": "David Chernicoff"
+    },
+    "POW": {
+      "key": "POW",
+      "venue": "IBX",
+      "name": "The Power",
+      "roster": [
+        {
+          "name": "Bird Arzoumanian"
+        },
+        {
+          "name": "Brendan Niebruegge"
+        },
+        {
+          "name": "Chase Martin"
+        },
+        {
+          "name": "Chris Mullen"
+        },
+        {
+          "name": "MK Walker"
+        },
+        {
+          "name": "Matt Ramey"
+        },
+        {
+          "name": "Matthew Harjo"
+        },
+        {
+          "name": "Nestor Rocha"
+        },
+        {
+          "name": "Nick Lindsay"
+        },
+        {
+          "name": "Val Gaifoulline"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-POW-POW",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "POW",
+            "name": "The Power"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-POW-POW",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "POW",
+            "name": "The Power"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "MK Walker",
+      "captain": "Matthew Harjo"
+    },
+    "DOG": {
+      "key": "DOG",
+      "venue": "HND",
+      "name": "The Stray Dogs",
+      "roster": [
+        {
+          "name": "Brendan Campbell"
+        },
+        {
+          "name": "Chaz Simmons"
+        },
+        {
+          "name": "Derrick Downing"
+        },
+        {
+          "name": "Elliott Johnson"
+        },
+        {
+          "name": "Glenden Hoyt"
+        },
+        {
+          "name": "Greg Levine"
+        },
+        {
+          "name": "Katie Viray"
+        },
+        {
+          "name": "Katja Rodgers"
+        },
+        {
+          "name": "Richard Scott"
+        },
+        {
+          "name": "Zachary Peeples"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-DOG-DOG",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "DOG",
+            "name": "The Stray Dogs"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DOG-DOG",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "DOG",
+            "name": "The Stray Dogs"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Glenden Hoyt",
+      "co_captain": "Katja Rodgers"
+    },
+    "TTT": {
+      "key": "TTT",
+      "venue": "STN",
+      "name": "The Trailer Trashers",
+      "roster": [
+        {
+          "name": "Alicia Seftel"
+        },
+        {
+          "name": "Blake Butler"
+        },
+        {
+          "name": "Dana Harper"
+        },
+        {
+          "name": "Greg Balducci"
+        },
+        {
+          "name": "Kevin Coulton"
+        },
+        {
+          "name": "Kyle Hayden"
+        },
+        {
+          "name": "Nic Cope"
+        },
+        {
+          "name": "Philip Pinette"
+        },
+        {
+          "name": "Rick Weber"
+        },
+        {
+          "name": "Stephen Brundle"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-TTT-TTT",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "TTT",
+            "name": "The Trailer Trashers"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TTT-TTT",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "TTT",
+            "name": "The Trailer Trashers"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Kevin Coulton",
+      "co_captain": "Nic Cope"
+    },
+    "TWC": {
+      "key": "TWC",
+      "venue": "GPA",
+      "name": "The Wrecking Crew",
+      "roster": [
+        {
+          "name": "Alan Wiley"
+        },
+        {
+          "name": "Alexa Philbeck"
+        },
+        {
+          "name": "Bryan Eastman"
+        },
+        {
+          "name": "Erik Gust"
+        },
+        {
+          "name": "Erin Malysa"
+        },
+        {
+          "name": "Kellan Kirkland"
+        },
+        {
+          "name": "Luke Camarda"
+        },
+        {
+          "name": "Marshall Denton"
+        },
+        {
+          "name": "Travis Maisch"
+        },
+        {
+          "name": "Will Kirkland"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-TWC-TWC",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "TWC",
+            "name": "The Wrecking Crew"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TWC-TWC",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "TWC",
+            "name": "The Wrecking Crew"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Alexa Philbeck",
+      "co_captain": "Bryan Eastman"
+    },
+    "BLK": {
+      "key": "BLK",
+      "venue": "BSS",
+      "name": "Ballard Locks",
+      "roster": [
+        {
+          "name": "Daniel Belarmino"
+        },
+        {
+          "name": "Isabelle Grams"
+        },
+        {
+          "name": "Jaran Jones"
+        },
+        {
+          "name": "Jaron Sheffield"
+        },
+        {
+          "name": "Kathleen Rush"
+        },
+        {
+          "name": "Lucas Haines"
+        },
+        {
+          "name": "Michael Rausch"
+        },
+        {
+          "name": "Skye Fleming"
+        },
+        {
+          "name": "Steph Hanlon"
+        },
+        {
+          "name": "Steve Geluso"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-BLK-SSD",
+          "week": "1",
+          "date": "20260127",
+          "side": "@",
+          "opp": {
+            "key": "SSD",
+            "name": "Salty Sea Dogs"
+          }
+        }
+      ],
+      "division": 0,
+      "captain": "Jaran Jones",
+      "co_captain": "Steph Hanlon"
+    },
+    "SRF": {
+      "key": "SRF",
+      "venue": "GRY",
+      "name": "Surf Champs",
+      "roster": [
+        {
+          "name": "Alec Rodenhauser"
+        },
+        {
+          "name": "Chloe Bolton"
+        },
+        {
+          "name": "David Weil WA"
+        },
+        {
+          "name": "Elyssa Cichy"
+        },
+        {
+          "name": "Josh Samson"
+        },
+        {
+          "name": "Mark Cohan"
+        },
+        {
+          "name": "Mark Vero"
+        },
+        {
+          "name": "Matthew Greene"
+        },
+        {
+          "name": "Matthew O'Brien"
+        },
+        {
+          "name": "Paul Irvine"
+        }
+      ],
+      "schedule": [
+        {
+          "match_key": "mnp-23-1-PKT-SRF",
+          "week": "1",
+          "date": "20260127",
+          "side": "vs",
+          "opp": {
+            "key": "PKT",
+            "name": "Pocketeers"
+          }
+        }
+      ],
+      "division": 0,
+      "co_captain": "Josh Samson",
+      "captain": "Matthew Greene"
+    }
+  },
+  "weeks": [
+    {
+      "n": "1",
+      "label": "WEEK 1",
+      "code": "WK1",
+      "isPlayoffs": false,
+      "isSpecial": false,
+      "date": "01/27/2026",
+      "matches": [
+        {
+          "match_key": "mnp-23-1-PGN-SWL",
+          "away_key": "PGN",
+          "away_name": "Pinguins",
+          "away_linked": true,
+          "home_key": "SWL",
+          "home_name": "Specials When Lit",
+          "home_linked": true,
+          "venue": {
+            "key": "8BT",
+            "name": "8-bit Arcade Bar"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-ADB-ICB",
+          "away_key": "ADB",
+          "away_name": "Admiraballs",
+          "away_linked": true,
+          "home_key": "ICB",
+          "home_name": "Incrediballs",
+          "home_linked": true,
+          "venue": {
+            "key": "ADM",
+            "name": "Admiral Pub"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-CRA-CPO",
+          "away_key": "CRA",
+          "away_name": "Castle Crashers",
+          "away_linked": true,
+          "home_key": "CPO",
+          "home_name": "Pants Optional",
+          "home_linked": true,
+          "venue": {
+            "key": "ANC",
+            "name": "Another Castle"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-BLK-SSD",
+          "away_key": "BLK",
+          "away_name": "Ballard Locks",
+          "away_linked": true,
+          "home_key": "SSD",
+          "home_name": "Salty Sea Dogs",
+          "home_linked": true,
+          "venue": {
+            "key": "BSS",
+            "name": "Ballard Smoke Shop"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-HHS-SKP",
+          "away_key": "HHS",
+          "away_name": "Hellhounds",
+          "away_linked": true,
+          "home_key": "SKP",
+          "home_name": "Slap Kraken Pop",
+          "home_linked": true,
+          "venue": {
+            "key": "KRA",
+            "name": "Kraken"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DIH-SSS",
+          "away_key": "DIH",
+          "away_name": "Drain in Hell",
+          "away_linked": true,
+          "home_key": "SSS",
+          "home_name": "Silverball Slayers",
+          "home_linked": true,
+          "venue": {
+            "key": "SHR",
+            "name": "Shorty's"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-PKT-SRF",
+          "away_key": "PKT",
+          "away_name": "Pocketeers",
+          "away_linked": true,
+          "home_key": "SRF",
+          "home_name": "Surf Champs",
+          "home_linked": true,
+          "venue": {
+            "key": "GRY",
+            "name": "Gary's Place"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-RTR-RTR",
+          "away_key": "RTR",
+          "away_name": "Ramp Tramps",
+          "away_linked": true,
+          "home_key": "RTR",
+          "home_name": "Ramp Tramps",
+          "home_linked": true,
+          "venue": {
+            "key": "T4B",
+            "name": "The 4Bs"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TBT-TBT",
+          "away_key": "TBT",
+          "away_name": "The B Team",
+          "away_linked": true,
+          "home_key": "TBT",
+          "home_name": "The B Team",
+          "home_linked": true,
+          "venue": {
+            "key": "T4B",
+            "name": "The 4Bs"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TRL-TRL",
+          "away_key": "TRL",
+          "away_name": "Trolls!",
+          "away_linked": true,
+          "home_key": "TRL",
+          "home_name": "Trolls!",
+          "home_linked": true,
+          "venue": {
+            "key": "T4B",
+            "name": "The 4Bs"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-BAD-BAD",
+          "away_key": "BAD",
+          "away_name": "Bad Cats",
+          "away_linked": true,
+          "home_key": "BAD",
+          "home_name": "Bad Cats",
+          "home_linked": true,
+          "venue": {
+            "key": "AAB",
+            "name": "Add-a-Ball"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DSV-DSV",
+          "away_key": "DSV",
+          "away_name": "Death Savers",
+          "away_linked": true,
+          "home_key": "DSV",
+          "home_name": "Death Savers",
+          "home_linked": true,
+          "venue": {
+            "key": "AAB",
+            "name": "Add-a-Ball"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-PBR-PBR",
+          "away_key": "PBR",
+          "away_name": "Point Breakers",
+          "away_linked": true,
+          "home_key": "PBR",
+          "home_name": "Point Breakers",
+          "home_linked": true,
+          "venue": {
+            "key": "AAB",
+            "name": "Add-a-Ball"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-KNR-KNR",
+          "away_key": "KNR",
+          "away_name": "Knight Riders",
+          "away_linked": true,
+          "home_key": "KNR",
+          "home_name": "Knight Riders",
+          "home_linked": true,
+          "venue": {
+            "key": "GPA",
+            "name": "Georgetown Pizza and Arcade"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-SCN-SCN",
+          "away_key": "SCN",
+          "away_name": "Seacorns",
+          "away_linked": true,
+          "home_key": "SCN",
+          "home_name": "Seacorns",
+          "home_linked": true,
+          "venue": {
+            "key": "GPA",
+            "name": "Georgetown Pizza and Arcade"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TWC-TWC",
+          "away_key": "TWC",
+          "away_name": "The Wrecking Crew",
+          "away_linked": true,
+          "home_key": "TWC",
+          "home_name": "The Wrecking Crew",
+          "home_linked": true,
+          "venue": {
+            "key": "GPA",
+            "name": "Georgetown Pizza and Arcade"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DOG-DOG",
+          "away_key": "DOG",
+          "away_name": "The Stray Dogs",
+          "away_linked": true,
+          "home_key": "DOG",
+          "home_name": "The Stray Dogs",
+          "home_linked": true,
+          "venue": {
+            "key": "HND",
+            "name": "Hounds Tooth"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-LAS-LAS",
+          "away_key": "LAS",
+          "away_name": "Little League All Stars",
+          "away_linked": true,
+          "home_key": "LAS",
+          "home_name": "Little League All Stars",
+          "home_linked": true,
+          "venue": {
+            "key": "IBX",
+            "name": "Ice Box"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-PYC-PYC",
+          "away_key": "PYC",
+          "away_name": "Pinballycule",
+          "away_linked": true,
+          "home_key": "PYC",
+          "home_name": "Pinballycule",
+          "home_linked": true,
+          "venue": {
+            "key": "IBX",
+            "name": "Ice Box"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-POW-POW",
+          "away_key": "POW",
+          "away_name": "The Power",
+          "away_linked": true,
+          "home_key": "POW",
+          "home_name": "The Power",
+          "home_linked": true,
+          "venue": {
+            "key": "IBX",
+            "name": "Ice Box"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DTP-DTP",
+          "away_key": "DTP",
+          "away_name": "DTP",
+          "away_linked": true,
+          "home_key": "DTP",
+          "home_name": "DTP",
+          "home_linked": true,
+          "venue": {
+            "key": "JUP",
+            "name": "Jupiter"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-FBP-FBP",
+          "away_key": "FBP",
+          "away_name": "Flippin Big Points",
+          "away_linked": true,
+          "home_key": "FBP",
+          "home_name": "Flippin Big Points",
+          "home_linked": true,
+          "venue": {
+            "key": "JUP",
+            "name": "Jupiter"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-JMF-JMF",
+          "away_key": "JMF",
+          "away_name": "Middle Flippers",
+          "away_linked": true,
+          "home_key": "JMF",
+          "home_name": "Middle Flippers",
+          "home_linked": true,
+          "venue": {
+            "key": "JUP",
+            "name": "Jupiter"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-NLT-NLT",
+          "away_key": "NLT",
+          "away_name": "Northern Lights",
+          "away_linked": true,
+          "home_key": "NLT",
+          "home_name": "Northern Lights",
+          "home_linked": true,
+          "venue": {
+            "key": "OLF",
+            "name": "Olaf's"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-RMS-RMS",
+          "away_key": "RMS",
+          "away_name": "Magic Saves",
+          "away_linked": true,
+          "home_key": "RMS",
+          "home_name": "Magic Saves",
+          "home_linked": true,
+          "venue": {
+            "key": "RAY",
+            "name": "Raygun Lounge"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-TTT-TTT",
+          "away_key": "TTT",
+          "away_name": "The Trailer Trashers",
+          "away_linked": true,
+          "home_key": "TTT",
+          "home_name": "The Trailer Trashers",
+          "home_linked": true,
+          "venue": {
+            "key": "STN",
+            "name": "Seattle Tavern and Pool Hall"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-NMC-NMC",
+          "away_key": "NMC",
+          "away_name": "Neuromancers",
+          "away_linked": true,
+          "home_key": "NMC",
+          "home_name": "Neuromancers",
+          "home_linked": true,
+          "venue": {
+            "key": "TWP",
+            "name": "Time Warp"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-ETB-ETB",
+          "away_key": "ETB",
+          "away_name": "Eighteen Ball Deluxe",
+          "away_linked": true,
+          "home_key": "ETB",
+          "home_name": "Eighteen Ball Deluxe",
+          "home_linked": true,
+          "venue": {
+            "key": "TDN",
+            "name": "Touchdown's Sports Bar and Grill"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-SHK-SHK",
+          "away_key": "SHK",
+          "away_name": "Sharks",
+          "away_linked": true,
+          "home_key": "SHK",
+          "home_name": "Sharks",
+          "home_linked": true,
+          "venue": {
+            "key": "WAT",
+            "name": "Waterland Arcade"
+          }
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "P": {
+      "key": "P",
+      "name": "Plunger",
+      "teams": [
+        "KNR",
+        "SSS",
+        "ETB",
+        "RTR",
+        "LAS",
+        "DTP",
+        "DSV",
+        "ICB",
+        "HHS"
+      ]
+    },
+    "R": {
+      "key": "R",
+      "name": "Rollover",
+      "teams": [
+        "SCN",
+        "DIH",
+        "NLT",
+        "SHK",
+        "PYC",
+        "FBP",
+        "BAD",
+        "ADB",
+        "SKP"
+      ]
+    },
+    "S": {
+      "key": "S",
+      "name": "Saucer",
+      "teams": [
+        "TWC",
+        "CRA",
+        "PGN",
+        "TBT",
+        "DOG",
+        "JMF",
+        "PKT",
+        "BLK",
+        "TTT"
+      ]
+    },
+    "T": {
+      "key": "T",
+      "name": "Target",
+      "teams": [
+        "NMC",
+        "CPO",
+        "SWL",
+        "TRL",
+        "POW",
+        "RMS",
+        "PBR",
+        "SSD",
+        "SRF"
+      ]
+    }
+  }
+}
