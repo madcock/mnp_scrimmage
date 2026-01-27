@@ -1,8 +1,32 @@
 #!/bin/bash
 
+PREGAME="\"pregame\""
+MATCH_DIR="matches"
+TEMP_DIR="tmp"
+
+# BACKUP any matches that have been played
+mkdir "$TEMP_DIR"
+for input_file in "$MATCH_DIR"/*.json; do
+    # find out what state the match is in
+    COMMAND_OUTPUT=$(jq '.state' "$input_file")
+
+    if [ "$COMMAND_OUTPUT" == "$PREGAME" ]; then
+        echo "rm $input_file"
+    else
+        echo "mv $input_file $TEMP_DIR"
+    fi
+done
+
+# CREATE all the matches
 export CURRENT_SEASON=season-23
 export DATA_FOLDER=/home/mnpdocker/apps/mnpdocker/mnp-data-archive
 node ../../../main/importers/export-season.js season-23 > rosters.csv
 export DATA_FOLDER=/home/mnpdocker/apps/mnpdocker/main/data
 node ../../../main/importers/import-season.js season-23
 node ../../../main/util/spawn-matches.js
+
+# RESTORE any matches that have been played
+for input_file in "$TEMP_DIR"/*.json; do
+    echo "mv $input_file $MATCH_DIR"
+done
+rmdir "$TEMP_DIR"
