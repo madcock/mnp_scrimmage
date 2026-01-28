@@ -1,8 +1,11 @@
 #!/bin/bash
 
+export CURRENT_WEEK=1
+export CURRENT_SEASON=season-23
+
 PREGAME="\"pregame\""
-MATCH_DIR="matches"
-TEMP_DIR="tmp"
+MATCH_DIR="$CURRENT_SEASON/matches"
+TEMP_DIR="$CURRENT_SEASON/tmp"
 
 # BACKUP any matches that have been played
 mkdir "$TEMP_DIR"
@@ -18,12 +21,14 @@ for input_file in "$MATCH_DIR"/*.json; do
 done
 
 # CREATE all the matches
-export CURRENT_SEASON=season-23
 export DATA_FOLDER=/home/mnpdocker/apps/mnpdocker/mnp-data-archive
-node ../../../main/importers/export-season.js season-23 > rosters.csv
+pushd "$DATA_FOLDER"
+git pull
+popd
+node ../importers/export-season.js "$CURRENT_SEASON" > "$CURRENT_SEASON/rosters.csv"
 export DATA_FOLDER=/home/mnpdocker/apps/mnpdocker/main/data
-node ../../../main/importers/import-season.js season-23
-node ../../../main/util/spawn-matches.js
+node ../importers/import-season.js "$CURRENT_SEASON"
+node ../util/spawn-matches.js "$CURRENT_WEEK"
 
 # RESTORE any matches that have been played
 for input_file in "$TEMP_DIR"/*.json; do
