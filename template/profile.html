@@ -93,57 +93,90 @@ fetchData();
 </script>
 
 <h3>My Account</h3>
-<table>
+<table class="table" align="center" style="width: 30%;">
   <tr>
-    <td>Name:</td>
-    <td><span style="font-weight: bold;"><a href="https://pinballstats.info/search/iprsearch.pl?q={{player.name}}">{{player.name}}</a></span></td>
+    <td colspan="2" style="text-align: center;"><span style="font-weight: bold;"><a href="https://pinballstats.info/search/iprsearch.pl?q={{player.name}}">{{player.name}}</a></span></td>
   </tr>
   <tr>
-    <td>Individual Player Rating (IPR):</td>
+    <td style="text-align: right;">IPR:</td>
     <td><span id="IPR"><b>loading...</b></span></td>
   </tr>
-  <tr>
-    <td colspan="2">&nbsp;</td>
+</table>
+</br>
+<table class="table" align="center" style="width: 30%;">
+  <tr class="header-row">
+    <th class="text-xs-center" colspan="2">IFPA</th>
   </tr>
   <tr>
-    <td>IFPA updated:</td>
-    <td><span id="IFPA_dateupdated" style="font-weight: bold;">loading...</span></td>
-  </tr>
-  <tr>
-    <td>IFPA ID:</td>
+    <td style="text-align: right;">ID:</td>
     <td><span id="IFPA_ID" style="font-weight: bold;">loading...</span></td>
   </tr>
   <tr>
-    <td>IFPA RANK:</td>
+    <td style="text-align: right;">Rank:</td>
     <td><span id="IFPA_RANK" style="font-weight: bold;">loading...</span></td>
   </tr>
   <tr>
-    <td colspan="2">&nbsp;</td>
+    <td style="text-align: right;">Updated:</td>
+    <td><span id="IFPA_dateupdated" style="font-weight: bold;">loading...</span></td>
+  </tr>
+</table>
+</br>
+<table class="table" align="center" style="width: 30%;">
+  <tr class="header-row">
+    <th class="text-xs-center" colspan="2">Match Play Rating</th>
   </tr>
   <tr>
-    <td>Match Play Ratings updated:</td>
-    <td><span id="MP_dateupdated" style="font-weight: bold;">loading...</span></td>
-  </tr>
-  <tr>
-    <td>Match Play Ratings ID:</td>
+    <td style="text-align: right;">ID:</td>
     <td><span id="MP_ID" style="font-weight: bold;">loading...</span></td>
   </tr>
   <tr>
-    <td>Match Play Ratings LB:</td>
+    <td style="text-align: right;">LB:</td>
     <td><span id="MP_LB" style="font-weight: bold;">loading...</span></td>
   </tr>
   <tr>
-    <td>Match Play Ratings RD:</td>
+    <td style="text-align: right;">RD:</td>
     <td><span id="MP_RD" style="font-weight: bold;">loading...</span></td>
+  </tr>
+  <tr>
+    <td style="text-align: right;">Updated:</td>
+    <td><span id="MP_dateupdated" style="font-weight: bold;">loading...</span></td>
   </tr>
 </table>
 <br/>
-<table class="table" style="width: 40%;"><tr class="header-row"><th>IPR</th> <th class="text-xs-center">IFPA Rank</th> <th class="text-xs-center">Matchplay LB</th></tr>
-<tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=6"><span class='badge badge-6'>6</span></a></td> <td class="text-xs-center"><span id="IFPA6" style="font-weight: bold;">loading...</span></td> <td class="text-xs-center"><span id="MP6" style="font-weight: bold;">loading...</span></td></tr>
-<tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=5"><span class='badge badge-5'>5</span></a></td> <td class="text-xs-center"><span id="IFPA5" style="font-weight: bold;">loading...</span></td> <td class="text-xs-center"><span id="MP5" style="font-weight: bold;">loading...</span></td></tr>
-<tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=4"><span class='badge badge-4'>4</span></a></td> <td class="text-xs-center"><span id="IFPA4" style="font-weight: bold;">loading...</span></td> <td class="text-xs-center"><span id="MP4" style="font-weight: bold;">loading...</span></td></tr>
-<tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=3"><span class='badge badge-3'>3</span></a></td> <td class="text-xs-center"><span id="IFPA3" style="font-weight: bold;">loading...</span></td> <td class="text-xs-center"><span id="MP3" style="font-weight: bold;">loading...</span></td></tr>
-<tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=2"><span class='badge badge-2'>2</span></a></td> <td class="text-xs-center"><span id="IFPA2" style="font-weight: bold;">loading...</span></td> <td class="text-xs-center"><span id="MP2" style="font-weight: bold;">loading...</span></td></tr>
-<tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=1"><span class='badge badge-1'>1</span></a></td> <td class="text-xs-center"><span id="IFPA1" style="font-weight: bold;">loading...</span></td> <td class="text-xs-center"><span id="MP1" style="font-weight: bold;">loading...</span></td></tr></table>
+<table class="table" align="center" style="width: 30%;">
+  <tr class="header-row">
+    <th>IPR</th>
+    <th class="text-xs-center">IFPA Rank</th>
+    <th class="text-xs-center">Matchplay LB</th>
+  </tr>
+  <tr>
+    <td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=6"><span class='badge badge-6'>6</span></a></td>
+    <td class="text-xs-center"><span id="IFPA6" style="font-weight: bold;">loading...</span></td>
+    <td class="text-xs-center"><span id="MP6" style="font-weight: bold;">loading...</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=5"><span class='badge badge-5'>5</span></a></td>
+    <td class="text-xs-center"><span id="IFPA5" style="font-weight: bold;">loading...</span></td>
+    <td class="text-xs-center"><span id="MP5" style="font-weight: bold;">loading...</span></td>
+  </tr>
+  <tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=4"><span class='badge badge-4'>4</span></a></td>
+    <td class="text-xs-center"><span id="IFPA4" style="font-weight: bold;">loading...</span></td>
+    <td class="text-xs-center"><span id="MP4" style="font-weight: bold;">loading...</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=3"><span class='badge badge-3'>3</span></a></td>
+    <td class="text-xs-center"><span id="IFPA3" style="font-weight: bold;">loading...</span></td>
+    <td class="text-xs-center"><span id="MP3" style="font-weight: bold;">loading...</span></td>
+  </tr>
+  <tr><td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=2"><span class='badge badge-2'>2</span></a></td>
+    <td class="text-xs-center"><span id="IFPA2" style="font-weight: bold;">loading...</span></td>
+    <td class="text-xs-center"><span id="MP2" style="font-weight: bold;">loading...</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://pinballstats.info/search/iprsearch.pl?ipr=1"><span class='badge badge-1'>1</span></a></td>
+    <td class="text-xs-center"><span id="IFPA1" style="font-weight: bold;">loading...</span></td>
+    <td class="text-xs-center"><span id="MP1" style="font-weight: bold;">loading...</span></td>
+  </tr>
+</table>
 
 <br><a href="/logout{{#redirect_url}}?redirect_url={{.}}{{/redirect_url}}">Logout</a>
