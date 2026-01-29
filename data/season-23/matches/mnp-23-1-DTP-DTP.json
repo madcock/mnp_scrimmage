@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "1",
   "round": 1,
-  "create_at": 1769511068503,
-  "date": "01/27/2026",
+  "create_at": 1769697185816,
+  "date": "01/26/2026",
   "state": "pregame",
-  "state_at": 1769511068503,
+  "state_at": 1769697185816,
   "venue": {
     "key": "JUP",
     "name": "Jupiter",
@@ -94,13 +94,6 @@
         "IPR": 5
       },
       {
-        "key": "6fd0e78cec1e094470b810eaa2ed6971c2133c7d",
-        "name": "Marissa Rodriguez",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 2
-      },
-      {
         "key": "db6c5cd060abb9e3a5da8370c2c3e9c0ef198a45",
         "name": "Matthew Sherwood",
         "sub": false,
@@ -124,6 +117,13 @@
       {
         "key": "2e399c30b768a8409eb1ced8e025529f0d0e80bb",
         "name": "Tom Baisden",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 2
+      },
+      {
+        "key": "6fd0e78cec1e094470b810eaa2ed6971c2133c7d",
+        "name": "Marissa Rodriguez",
         "sub": false,
         "num_played": 0,
         "IPR": 2
@@ -180,13 +180,6 @@
         "IPR": 5
       },
       {
-        "key": "6fd0e78cec1e094470b810eaa2ed6971c2133c7d",
-        "name": "Marissa Rodriguez",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 2
-      },
-      {
         "key": "db6c5cd060abb9e3a5da8370c2c3e9c0ef198a45",
         "name": "Matthew Sherwood",
         "sub": false,
@@ -210,6 +203,13 @@
       {
         "key": "2e399c30b768a8409eb1ced8e025529f0d0e80bb",
         "name": "Tom Baisden",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 2
+      },
+      {
+        "key": "6fd0e78cec1e094470b810eaa2ed6971c2133c7d",
+        "name": "Marissa Rodriguez",
         "sub": false,
         "num_played": 0,
         "IPR": 2

@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "1",
   "round": 1,
-  "create_at": 1769511068503,
-  "date": "01/27/2026",
+  "create_at": 1769697185815,
+  "date": "01/26/2026",
   "state": "pregame",
-  "state_at": 1769511068503,
+  "state_at": 1769697185815,
   "venue": {
     "key": "IBX",
     "name": "Ice Box",
@@ -42,7 +42,6 @@
       "Godzilla",
       "IronMan",
       "Metallica",
-      "PHAR",
       "TWD",
       "AS",
       "Congo",
@@ -57,7 +56,8 @@
       "Frontier",
       "Cheetah",
       "SB",
-      "Harry Potter "
+      "Harry Potter ",
+      "EJ"
     ]
   },
   "away": {
@@ -131,15 +131,15 @@
         "IPR": 1
       },
       {
-        "key": "9f253276520240d0adfe0dc45d7af35ea96ef45f",
-        "name": "Robbie Finnigan",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 5
-      },
-      {
         "key": "5951fdc670423921128e333e0ad0feff8c2b60ec",
         "name": "Rolo Carey",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 2
+      },
+      {
+        "key": "f5c6c80719b158ad70b4f573e0b0f7039ddf37e2",
+        "name": "Michael Gray",
         "sub": false,
         "num_played": 0,
         "IPR": 2
@@ -217,15 +217,15 @@
         "IPR": 1
       },
       {
-        "key": "9f253276520240d0adfe0dc45d7af35ea96ef45f",
-        "name": "Robbie Finnigan",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 5
-      },
-      {
         "key": "5951fdc670423921128e333e0ad0feff8c2b60ec",
         "name": "Rolo Carey",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 2
+      },
+      {
+        "key": "f5c6c80719b158ad70b4f573e0b0f7039ddf37e2",
+        "name": "Michael Gray",
         "sub": false,
         "num_played": 0,
         "IPR": 2

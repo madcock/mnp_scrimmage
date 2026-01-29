@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "1",
   "round": 1,
-  "create_at": 1769511068498,
-  "date": "01/27/2026",
+  "create_at": 1769697185811,
+  "date": "01/26/2026",
   "state": "pregame",
-  "state_at": 1769511068498,
+  "state_at": 1769697185811,
   "venue": {
     "key": "8BT",
     "name": "8-bit Arcade Bar",
@@ -25,12 +25,10 @@
       "SternPark",
       "PULP",
       "BKSoR",
-      "Scooby Doo",
       "Shrek",
       "JW",
       "EJ",
       "Hobbit",
-      "Guardians",
       "ULTRA",
       "WOZ",
       "FT",
@@ -38,7 +36,9 @@
       "KONG",
       "SWFOTE",
       "Ghost",
-      "LAB"
+      "LAB",
+      "DP",
+      "Wonka"
     ]
   },
   "away": {

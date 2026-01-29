@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "1",
   "round": 1,
-  "create_at": 1769511068503,
-  "date": "01/27/2026",
+  "create_at": 1769697185815,
+  "date": "01/26/2026",
   "state": "pregame",
-  "state_at": 1769511068503,
+  "state_at": 1769697185815,
   "venue": {
     "key": "IBX",
     "name": "Ice Box",
@@ -42,7 +42,6 @@
       "Godzilla",
       "IronMan",
       "Metallica",
-      "PHAR",
       "TWD",
       "AS",
       "Congo",
@@ -57,7 +56,8 @@
       "Frontier",
       "Cheetah",
       "SB",
-      "Harry Potter "
+      "Harry Potter ",
+      "EJ"
     ]
   },
   "away": {
@@ -110,13 +110,6 @@
         "IPR": 2
       },
       {
-        "key": "7324261c932a00ce7d19306cd1a35f6f34517274",
-        "name": "Genevieve Forrester",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 1
-      },
-      {
         "key": "d5ec5a17a62f72bd2c998e6657d4c1def5a7cdd3",
         "name": "Hunter Vogt",
         "sub": false,
@@ -143,6 +136,13 @@
         "sub": false,
         "num_played": 0,
         "IPR": 4
+      },
+      {
+        "key": "7324261c932a00ce7d19306cd1a35f6f34517274",
+        "name": "Genevieve Forrester",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
       }
     ]
   },
@@ -196,13 +196,6 @@
         "IPR": 2
       },
       {
-        "key": "7324261c932a00ce7d19306cd1a35f6f34517274",
-        "name": "Genevieve Forrester",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 1
-      },
-      {
         "key": "d5ec5a17a62f72bd2c998e6657d4c1def5a7cdd3",
         "name": "Hunter Vogt",
         "sub": false,
@@ -229,6 +222,13 @@
         "sub": false,
         "num_played": 0,
         "IPR": 4
+      },
+      {
+        "key": "7324261c932a00ce7d19306cd1a35f6f34517274",
+        "name": "Genevieve Forrester",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
       }
     ]
   },

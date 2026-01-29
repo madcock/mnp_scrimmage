@@ -41,7 +41,7 @@
         {
           "match_key": "mnp-23-1-ADB-ICB",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "ICB",
@@ -93,7 +93,7 @@
         {
           "match_key": "mnp-23-1-BAD-BAD",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "BAD",
@@ -103,7 +103,7 @@
         {
           "match_key": "mnp-23-1-BAD-BAD",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "BAD",
@@ -155,7 +155,7 @@
         {
           "match_key": "mnp-23-1-CRA-CPO",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "CPO",
@@ -207,7 +207,7 @@
         {
           "match_key": "mnp-23-1-TRL-TRL",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "TRL",
@@ -217,7 +217,7 @@
         {
           "match_key": "mnp-23-1-TRL-TRL",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "TRL",
@@ -269,7 +269,7 @@
         {
           "match_key": "mnp-23-1-DSV-DSV",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "DSV",
@@ -279,7 +279,7 @@
         {
           "match_key": "mnp-23-1-DSV-DSV",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "DSV",
@@ -383,7 +383,7 @@
         {
           "match_key": "mnp-23-1-DTP-DTP",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "DTP",
@@ -393,7 +393,7 @@
         {
           "match_key": "mnp-23-1-DTP-DTP",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "DTP",
@@ -445,7 +445,7 @@
         {
           "match_key": "mnp-23-1-ETB-ETB",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "ETB",
@@ -455,7 +455,7 @@
         {
           "match_key": "mnp-23-1-ETB-ETB",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "ETB",
@@ -504,7 +504,7 @@
         {
           "match_key": "mnp-23-1-FBP-FBP",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "FBP",
@@ -514,7 +514,7 @@
         {
           "match_key": "mnp-23-1-FBP-FBP",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "FBP",
@@ -563,7 +563,7 @@
         {
           "match_key": "mnp-23-1-HHS-SKP",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "SKP",
@@ -615,7 +615,7 @@
         {
           "match_key": "mnp-23-1-ADB-ICB",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "ADB",
@@ -667,7 +667,7 @@
         {
           "match_key": "mnp-23-1-KNR-KNR",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "KNR",
@@ -677,7 +677,7 @@
         {
           "match_key": "mnp-23-1-KNR-KNR",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "KNR",
@@ -729,7 +729,7 @@
         {
           "match_key": "mnp-23-1-LAS-LAS",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "LAS",
@@ -739,7 +739,7 @@
         {
           "match_key": "mnp-23-1-LAS-LAS",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "LAS",
@@ -791,7 +791,7 @@
         {
           "match_key": "mnp-23-1-RMS-RMS",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "RMS",
@@ -801,7 +801,7 @@
         {
           "match_key": "mnp-23-1-RMS-RMS",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "RMS",
@@ -853,7 +853,7 @@
         {
           "match_key": "mnp-23-1-JMF-JMF",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "JMF",
@@ -863,7 +863,7 @@
         {
           "match_key": "mnp-23-1-JMF-JMF",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "JMF",
@@ -915,7 +915,7 @@
         {
           "match_key": "mnp-23-1-NMC-NMC",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "NMC",
@@ -925,7 +925,7 @@
         {
           "match_key": "mnp-23-1-NMC-NMC",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "NMC",
@@ -977,7 +977,7 @@
         {
           "match_key": "mnp-23-1-NLT-NLT",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "NLT",
@@ -987,7 +987,7 @@
         {
           "match_key": "mnp-23-1-NLT-NLT",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "NLT",
@@ -1039,7 +1039,7 @@
         {
           "match_key": "mnp-23-1-CRA-CPO",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "CRA",
@@ -1091,7 +1091,7 @@
         {
           "match_key": "mnp-23-1-PYC-PYC",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "PYC",
@@ -1101,7 +1101,7 @@
         {
           "match_key": "mnp-23-1-PYC-PYC",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "PYC",
@@ -1153,7 +1153,7 @@
         {
           "match_key": "mnp-23-1-PGN-SWL",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "SWL",
@@ -1205,7 +1205,7 @@
         {
           "match_key": "mnp-23-1-PKT-SRF",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "SRF",
@@ -1257,7 +1257,7 @@
         {
           "match_key": "mnp-23-1-PBR-PBR",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "PBR",
@@ -1267,7 +1267,7 @@
         {
           "match_key": "mnp-23-1-PBR-PBR",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "PBR",
@@ -1319,7 +1319,7 @@
         {
           "match_key": "mnp-23-1-RTR-RTR",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "RTR",
@@ -1329,7 +1329,7 @@
         {
           "match_key": "mnp-23-1-RTR-RTR",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "RTR",
@@ -1381,7 +1381,7 @@
         {
           "match_key": "mnp-23-1-BLK-SSD",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "BLK",
@@ -1433,7 +1433,7 @@
         {
           "match_key": "mnp-23-1-SCN-SCN",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "SCN",
@@ -1443,7 +1443,7 @@
         {
           "match_key": "mnp-23-1-SCN-SCN",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "SCN",
@@ -1495,7 +1495,7 @@
         {
           "match_key": "mnp-23-1-SHK-SHK",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "SHK",
@@ -1505,7 +1505,7 @@
         {
           "match_key": "mnp-23-1-SHK-SHK",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "SHK",
@@ -1609,7 +1609,7 @@
         {
           "match_key": "mnp-23-1-HHS-SKP",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "HHS",
@@ -1661,7 +1661,7 @@
         {
           "match_key": "mnp-23-1-PGN-SWL",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "PGN",
@@ -1713,7 +1713,7 @@
         {
           "match_key": "mnp-23-1-TBT-TBT",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "TBT",
@@ -1723,7 +1723,7 @@
         {
           "match_key": "mnp-23-1-TBT-TBT",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "TBT",
@@ -1775,7 +1775,7 @@
         {
           "match_key": "mnp-23-1-POW-POW",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "POW",
@@ -1785,7 +1785,7 @@
         {
           "match_key": "mnp-23-1-POW-POW",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "POW",
@@ -1837,7 +1837,7 @@
         {
           "match_key": "mnp-23-1-DOG-DOG",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "DOG",
@@ -1847,7 +1847,7 @@
         {
           "match_key": "mnp-23-1-DOG-DOG",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "DOG",
@@ -1899,7 +1899,7 @@
         {
           "match_key": "mnp-23-1-TTT-TTT",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "TTT",
@@ -1909,7 +1909,7 @@
         {
           "match_key": "mnp-23-1-TTT-TTT",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "TTT",
@@ -1961,7 +1961,7 @@
         {
           "match_key": "mnp-23-1-TWC-TWC",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "TWC",
@@ -1971,7 +1971,7 @@
         {
           "match_key": "mnp-23-1-TWC-TWC",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "TWC",
@@ -2023,7 +2023,7 @@
         {
           "match_key": "mnp-23-1-BLK-SSD",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "@",
           "opp": {
             "key": "SSD",
@@ -2075,7 +2075,7 @@
         {
           "match_key": "mnp-23-1-PKT-SRF",
           "week": "1",
-          "date": "20260127",
+          "date": "20260126",
           "side": "vs",
           "opp": {
             "key": "PKT",
@@ -2096,29 +2096,6 @@
       "isPlayoffs": false,
       "isSpecial": false,
       "date": "01/26/2026",
-      "matches": [
-        {
-          "match_key": "mnp-23-1-DIH-SSS",
-          "away_key": "DIH",
-          "away_name": "Drain in Hell",
-          "away_linked": true,
-          "home_key": "SSS",
-          "home_name": "Silverball Slayers",
-          "home_linked": true,
-          "venue": {
-            "key": "SHR",
-            "name": "Shorty's"
-          }
-        }
-      ]
-    },
-    {
-      "n": "1",
-      "label": "WEEK 1",
-      "code": "WK1",
-      "isPlayoffs": false,
-      "isSpecial": false,
-      "date": "01/27/2026",
       "matches": [
         {
           "match_key": "mnp-23-1-PGN-SWL",
@@ -2183,6 +2160,19 @@
           "venue": {
             "key": "KRA",
             "name": "Kraken"
+          }
+        },
+        {
+          "match_key": "mnp-23-1-DIH-SSS",
+          "away_key": "DIH",
+          "away_name": "Drain in Hell",
+          "away_linked": true,
+          "home_key": "SSS",
+          "home_name": "Silverball Slayers",
+          "home_linked": true,
+          "venue": {
+            "key": "SHR",
+            "name": "Shorty's"
           }
         },
         {

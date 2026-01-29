@@ -4,17 +4,17 @@
   "type": "manual",
   "week": "1",
   "round": 1,
-  "create_at": 1769511068499,
-  "date": "01/27/2026",
+  "create_at": 1769697185812,
+  "date": "01/26/2026",
   "state": "pregame",
-  "state_at": 1769511068499,
+  "state_at": 1769697185812,
   "venue": {
     "key": "BSS",
     "name": "Ballard Smoke Shop",
     "machines": [
       "BKSoR",
       "Jaws",
-      "Godzilla",
+      "GF",
       "PULP",
       "UXMEN",
       "Indy",
@@ -45,13 +45,6 @@
         "sub": false,
         "num_played": 0,
         "IPR": 2
-      },
-      {
-        "key": "55b397a60fefa03420deb5640e2fc21769ce3f76",
-        "name": "Isabelle Grams",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 5
       },
       {
         "key": "dd9737477894a5f946dd545cbc59a00dc17e43cd",
@@ -89,13 +82,6 @@
         "IPR": 5
       },
       {
-        "key": "2bcf22393f31328e201fa2913f8f1ff2adf05965",
-        "name": "Skye Fleming",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 4
-      },
-      {
         "key": "caa41abb4776b6df1a22838de88b288d86591b3f",
         "name": "Steph Hanlon",
         "sub": false,
@@ -108,6 +94,20 @@
         "sub": false,
         "num_played": 0,
         "IPR": 2
+      },
+      {
+        "key": "55b397a60fefa03420deb5640e2fc21769ce3f76",
+        "name": "Isabelle Grams",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 5
+      },
+      {
+        "key": "2bcf22393f31328e201fa2913f8f1ff2adf05965",
+        "name": "Skye Fleming",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 4
       }
     ]
   },
@@ -182,18 +182,18 @@
         "IPR": 1
       },
       {
-        "key": "00c002ea74d05febac4dad15808b479e9a953dd6",
-        "name": "Spencer Anderson",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 1
-      },
-      {
         "key": "f6af4bc664f0ed90f8cf0fe337403954fa2d6b5f",
         "name": "Tyler Morgan",
         "sub": false,
         "num_played": 0,
         "IPR": 2
+      },
+      {
+        "key": "00c002ea74d05febac4dad15808b479e9a953dd6",
+        "name": "Spencer Anderson",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
       }
     ]
   },

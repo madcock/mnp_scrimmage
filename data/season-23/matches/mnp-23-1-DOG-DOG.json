@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "1",
   "round": 1,
-  "create_at": 1769511068502,
-  "date": "01/27/2026",
+  "create_at": 1769697185815,
+  "date": "01/26/2026",
   "state": "pregame",
-  "state_at": 1769511068502,
+  "state_at": 1769697185815,
   "venue": {
     "key": "HND",
     "name": "Hounds Tooth",
@@ -54,13 +54,6 @@
         "IPR": 1
       },
       {
-        "key": "3921f875f2bab7032cbaa517511d5dda1fac025b",
-        "name": "Derrick Downing",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 1
-      },
-      {
         "key": "30446d1f0ed7e860051d55d8623119d5dfac5412",
         "name": "Elliott Johnson",
         "sub": false,
@@ -105,6 +98,13 @@
       {
         "key": "0dc85fa3046eae06b77599d7f69b260ff3898263",
         "name": "Zachary Peeples",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 3
+      },
+      {
+        "key": "acc52244ba86a7434f604c8069c520ba6b0269b8",
+        "name": "Sterling Butterfield",
         "sub": false,
         "num_played": 0,
         "IPR": 3
@@ -140,13 +140,6 @@
         "IPR": 1
       },
       {
-        "key": "3921f875f2bab7032cbaa517511d5dda1fac025b",
-        "name": "Derrick Downing",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 1
-      },
-      {
         "key": "30446d1f0ed7e860051d55d8623119d5dfac5412",
         "name": "Elliott Johnson",
         "sub": false,
@@ -191,6 +184,13 @@
       {
         "key": "0dc85fa3046eae06b77599d7f69b260ff3898263",
         "name": "Zachary Peeples",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 3
+      },
+      {
+        "key": "acc52244ba86a7434f604c8069c520ba6b0269b8",
+        "name": "Sterling Butterfield",
         "sub": false,
         "num_played": 0,
         "IPR": 3

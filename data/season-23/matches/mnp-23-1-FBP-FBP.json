@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "1",
   "round": 1,
-  "create_at": 1769511068503,
-  "date": "01/27/2026",
+  "create_at": 1769697185816,
+  "date": "01/26/2026",
   "state": "pregame",
-  "state_at": 1769511068503,
+  "state_at": 1769697185816,
   "venue": {
     "key": "JUP",
     "name": "Jupiter",
@@ -73,13 +73,6 @@
         "IPR": 3
       },
       {
-        "key": "32179b101e82695be864289dba6342225d4da4f1",
-        "name": "Dakota Green",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 1
-      },
-      {
         "key": "a00d4666ef997d4479ac121d7c65c144737189df",
         "name": "Dakota Warden",
         "sub": false,
@@ -117,6 +110,13 @@
       {
         "key": "0e72a479c87122841c01b3923fbf0702fe2beadb",
         "name": "Xander Jackson",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
+      },
+      {
+        "key": "32179b101e82695be864289dba6342225d4da4f1",
+        "name": "Dakota Green",
         "sub": false,
         "num_played": 0,
         "IPR": 1
@@ -152,13 +152,6 @@
         "IPR": 3
       },
       {
-        "key": "32179b101e82695be864289dba6342225d4da4f1",
-        "name": "Dakota Green",
-        "sub": false,
-        "num_played": 0,
-        "IPR": 1
-      },
-      {
         "key": "a00d4666ef997d4479ac121d7c65c144737189df",
         "name": "Dakota Warden",
         "sub": false,
@@ -196,6 +189,13 @@
       {
         "key": "0e72a479c87122841c01b3923fbf0702fe2beadb",
         "name": "Xander Jackson",
+        "sub": false,
+        "num_played": 0,
+        "IPR": 1
+      },
+      {
+        "key": "32179b101e82695be864289dba6342225d4da4f1",
+        "name": "Dakota Green",
         "sub": false,
         "num_played": 0,
         "IPR": 1
