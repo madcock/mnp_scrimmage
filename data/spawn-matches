@@ -1,5 +1,4 @@
 #!/bin/bash
-
 export CURRENT_WEEK=1
 export CURRENT_SEASON=season-23
 
@@ -13,12 +12,12 @@ for input_file in "$MATCH_DIR"/*.json; do
     # find out what state the match is in
     COMMAND_OUTPUT=$(jq '.state' "$input_file")
 
-    if [ "$COMMAND_OUTPUT" == "$PREGAME" ]; then
-        echo "rm $input_file"
-    else
+    if [[ "$COMMAND_OUTPUT" != "$PREGAME" ]]; then
         echo "mv $input_file $TEMP_DIR"
     fi
 done
+
+rm "$MATCH_DIR"/*.json
 
 # CREATE all the matches
 export DATA_FOLDER=/home/mnpdocker/apps/mnpdocker/mnp-data-archive

@@ -13,42 +13,31 @@
           "name": "Chris Borgstadt"
         },
         {
-          "name": "Michael Tomber"
-        },
-        {
-          "name": "Scott Lee WA"
-        },
-        {
           "name": "Jackson McComish"
         },
         {
-          "name": "Seth Smith"
+          "name": "Jerry Duncan"
         },
         {
-          "name": "Nichole Casado"
+          "name": "Michael Tomber"
         },
         {
           "name": "Mohamed Sawani"
         },
         {
-          "name": "Thomas Homan"
+          "name": "Nichole Casado"
         },
         {
-          "name": "Jerry Duncan"
-        }
-      ],
-      "schedule": [
+          "name": "Scott Lee WA"
+        },
         {
-          "match_key": "mnp-23-1-ADB-ICB",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "ICB",
-            "name": "Incrediballs"
-          }
+          "name": "Seth Smith"
+        },
+        {
+          "name": "Thomas Homan"
         }
       ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Chris Borgstadt",
       "captain": "Michael Tomber"
@@ -89,28 +78,7 @@
           "name": "Sarah Munden"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-BAD-BAD",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "BAD",
-            "name": "Bad Cats"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-BAD-BAD",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "BAD",
-            "name": "Bad Cats"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Chloe LeGrow",
       "co_captain": "Ren Logan"
@@ -130,6 +98,9 @@
           "name": "Connor Vermeys"
         },
         {
+          "name": "Craig R Jones"
+        },
+        {
           "name": "Jay Ostby"
         },
         {
@@ -146,23 +117,9 @@
         },
         {
           "name": "Nate Tompkins"
-        },
-        {
-          "name": "Craig R Jones"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-CRA-CPO",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "CPO",
-            "name": "Pants Optional"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Chris Tinney",
       "captain": "Joshua Francis"
@@ -203,28 +160,7 @@
           "name": "Rob Homan WA"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-TRL-TRL",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "TRL",
-            "name": "Trolls!"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TRL-TRL",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "TRL",
-            "name": "Trolls!"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Forrest McIntyre",
       "captain": "Mark McClure"
@@ -265,28 +201,7 @@
           "name": "Zac Petersen"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-DSV-DSV",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "DSV",
-            "name": "Death Savers"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-DSV-DSV",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "DSV",
-            "name": "Death Savers"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Emma Frost",
       "captain": "Zac Petersen"
@@ -296,6 +211,9 @@
       "venue": "SHR",
       "name": "Drain in Hell",
       "roster": [
+        {
+          "name": "Clare Newell"
+        },
         {
           "name": "Danae Hackett"
         },
@@ -322,9 +240,6 @@
         },
         {
           "name": "Ryan Tamm"
-        },
-        {
-          "name": "Clare Newell"
         }
       ],
       "schedule": [
@@ -364,6 +279,9 @@
           "name": "Kristin Vick"
         },
         {
+          "name": "Marissa Rodriguez"
+        },
+        {
           "name": "Matthew Sherwood"
         },
         {
@@ -374,33 +292,9 @@
         },
         {
           "name": "Tom Baisden"
-        },
-        {
-          "name": "Marissa Rodriguez"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-DTP-DTP",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "DTP",
-            "name": "DTP"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-DTP-DTP",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "DTP",
-            "name": "DTP"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Alex Skinner ",
       "captain": "Dwayne Collins"
@@ -441,28 +335,7 @@
           "name": "Stephen Frontis"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-ETB-ETB",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "ETB",
-            "name": "Eighteen Ball Deluxe"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-ETB-ETB",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "ETB",
-            "name": "Eighteen Ball Deluxe"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "John McConnell",
       "co_captain": "Rhett Pearson"
@@ -477,6 +350,9 @@
         },
         {
           "name": "Clay Shelton"
+        },
+        {
+          "name": "Dakota Green"
         },
         {
           "name": "Dakota Warden"
@@ -495,33 +371,9 @@
         },
         {
           "name": "Xander Jackson"
-        },
-        {
-          "name": "Dakota Green"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-FBP-FBP",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "FBP",
-            "name": "Flippin Big Points"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-FBP-FBP",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "FBP",
-            "name": "Flippin Big Points"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Clay Shelton",
       "captain": "Dakota Warden"
@@ -559,18 +411,7 @@
           "name": "Trevor Leonard"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-HHS-SKP",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "SKP",
-            "name": "Slap Kraken Pop"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Clare Green",
       "co_captain": "Daniel Mays"
@@ -611,18 +452,7 @@
           "name": "Robyn Houseworth"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-ADB-ICB",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "ADB",
-            "name": "Admiraballs"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Billy Conwell",
       "captain": "Quinn Thomas"
@@ -663,28 +493,7 @@
           "name": "Tommy Schessler"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-KNR-KNR",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "KNR",
-            "name": "Knight Riders"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-KNR-KNR",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "KNR",
-            "name": "Knight Riders"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Jon Shaiman",
       "captain": "Stephen Rakonza"
@@ -719,34 +528,13 @@
           "name": "Michael Fricke"
         },
         {
-          "name": "Rolo Carey"
-        },
-        {
           "name": "Michael Gray"
-        }
-      ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-LAS-LAS",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "LAS",
-            "name": "Little League All Stars"
-          }
         },
         {
-          "match_key": "mnp-23-1-LAS-LAS",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "LAS",
-            "name": "Little League All Stars"
-          }
+          "name": "Rolo Carey"
         }
       ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Danielle Wilcox",
       "captain": "Jared Bayliss"
@@ -761,6 +549,12 @@
         },
         {
           "name": "Eric Chambers"
+        },
+        {
+          "name": "Jandy Stephens"
+        },
+        {
+          "name": "Jon S Bell"
         },
         {
           "name": "Kevin Deschenes"
@@ -779,36 +573,9 @@
         },
         {
           "name": "Scott Kelly"
-        },
-        {
-          "name": "Jandy Stephens"
-        },
-        {
-          "name": "Jon S Bell"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-RMS-RMS",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "RMS",
-            "name": "Magic Saves"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-RMS-RMS",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "RMS",
-            "name": "Magic Saves"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Eric Chambers",
       "captain": "Michael Zuino"
@@ -818,6 +585,9 @@
       "venue": "JUP",
       "name": "Middle Flippers",
       "roster": [
+        {
+          "name": "Alisha Maligon"
+        },
         {
           "name": "Bre Lloyd"
         },
@@ -844,33 +614,9 @@
         },
         {
           "name": "Sam Stiles"
-        },
-        {
-          "name": "Alisha Maligon"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-JMF-JMF",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "JMF",
-            "name": "Middle Flippers"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-JMF-JMF",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "JMF",
-            "name": "Middle Flippers"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Diane Panagiotopoulos",
       "captain": "Nate Cantor"
@@ -911,28 +657,7 @@
           "name": "Wardell Baldwin III"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-NMC-NMC",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "NMC",
-            "name": "Neuromancers"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-NMC-NMC",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "NMC",
-            "name": "Neuromancers"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Sean Bray",
       "captain": "Tim Uomoto"
@@ -973,28 +698,7 @@
           "name": "Tristan Ward"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-NLT-NLT",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "NLT",
-            "name": "Northern Lights"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-NLT-NLT",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "NLT",
-            "name": "Northern Lights"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Evan Eckles",
       "captain": "Jeff Dillaman"
@@ -1009,6 +713,9 @@
         },
         {
           "name": "Erik Rikansrud"
+        },
+        {
+          "name": "Evan Adkins"
         },
         {
           "name": "Lefty Sitaras"
@@ -1030,23 +737,9 @@
         },
         {
           "name": "William Scott Jordan"
-        },
-        {
-          "name": "Evan Adkins"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-CRA-CPO",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "CRA",
-            "name": "Castle Crashers"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Liberty Ruderman",
       "captain": "Mandy Woodard"
@@ -1072,6 +765,9 @@
           "name": "Donna Hucklebee"
         },
         {
+          "name": "Genevieve Forrester"
+        },
+        {
           "name": "Hunter Vogt"
         },
         {
@@ -1082,33 +778,9 @@
         },
         {
           "name": "Matt Galbraith"
-        },
-        {
-          "name": "Genevieve Forrester"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-PYC-PYC",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "PYC",
-            "name": "Pinballycule"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-PYC-PYC",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "PYC",
-            "name": "Pinballycule"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Andyroo Callan",
       "co_captain": "Hunter Vogt"
@@ -1119,7 +791,10 @@
       "name": "Pinguins",
       "roster": [
         {
-          "name": "Altwin Hawksford"
+          "name": "Anthony McCammant"
+        },
+        {
+          "name": "Bud Lipke"
         },
         {
           "name": "Canyon Mosely"
@@ -1128,13 +803,10 @@
           "name": "Emily Henshaw"
         },
         {
-          "name": "Forrest Avery"
+          "name": "Jeffrey Lawrence"
         },
         {
           "name": "Jonathan Allen"
-        },
-        {
-          "name": "Julianne Hassman"
         },
         {
           "name": "Peyton Conrad"
@@ -1143,24 +815,13 @@
           "name": "Ryan Tupper"
         },
         {
-          "name": "Sebastian Jennings"
+          "name": "Ryan Whalen"
         },
         {
           "name": "Sookie Sookram"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-PGN-SWL",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "SWL",
-            "name": "Specials When Lit"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Peyton Conrad",
       "captain": "Ryan Tupper"
@@ -1192,27 +853,16 @@
           "name": "Lonnie Langford"
         },
         {
+          "name": "Mandie Moore"
+        },
+        {
           "name": "Nick Filer"
         },
         {
           "name": "Randall Olson"
-        },
-        {
-          "name": "Mandie Moore"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-PKT-SRF",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "SRF",
-            "name": "Surf Champs"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Emily Young",
       "captain": "Lonnie Langford"
@@ -1253,28 +903,7 @@
           "name": "Mickey Nussbaumer"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-PBR-PBR",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "PBR",
-            "name": "Point Breakers"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-PBR-PBR",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "PBR",
-            "name": "Point Breakers"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Clayton Stetz",
       "captain": "Michael Ulmen"
@@ -1300,6 +929,9 @@
           "name": "Brooke Borcherding"
         },
         {
+          "name": "Chelsea Rakonza"
+        },
+        {
           "name": "Emily Beirne"
         },
         {
@@ -1310,33 +942,9 @@
         },
         {
           "name": "Maureen Hendrix"
-        },
-        {
-          "name": "Chelsea Rakonza"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-RTR-RTR",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "RTR",
-            "name": "Ramp Tramps"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-RTR-RTR",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "RTR",
-            "name": "Ramp Tramps"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Isaac Kaplan-Woolner",
       "captain": "Maureen Hendrix"
@@ -1371,24 +979,13 @@
           "name": "Sean Gallagher"
         },
         {
-          "name": "Tyler Morgan"
+          "name": "Spencer Anderson"
         },
         {
-          "name": "Spencer Anderson"
+          "name": "Tyler Morgan"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-BLK-SSD",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "BLK",
-            "name": "Ballard Locks"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "James Frost-Winn",
       "captain": "Lauren Aiello"
@@ -1402,10 +999,16 @@
           "name": "Claire Burke"
         },
         {
+          "name": "Corbin Sheffels"
+        },
+        {
           "name": "Danielle Crowson"
         },
         {
           "name": "Jesse Labbe"
+        },
+        {
+          "name": "Lucas Marcolongo"
         },
         {
           "name": "Michael Adcock"
@@ -1421,36 +1024,9 @@
         },
         {
           "name": "Shirley Recinos"
-        },
-        {
-          "name": "Lucas Marcolongo"
-        },
-        {
-          "name": "Corbin Sheffels"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-SCN-SCN",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "SCN",
-            "name": "Seacorns"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-SCN-SCN",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "SCN",
-            "name": "Seacorns"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Claire Burke",
       "captain": "Danielle Crowson"
@@ -1491,28 +1067,7 @@
           "name": "Zachary Turner"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-SHK-SHK",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "SHK",
-            "name": "Sharks"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-SHK-SHK",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "SHK",
-            "name": "Sharks"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Tony Ryder",
       "captain": "Zachary Turner"
@@ -1605,18 +1160,7 @@
           "name": "Zoe Ackerman"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-HHS-SKP",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "HHS",
-            "name": "Hellhounds"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Jenny Vidovic",
       "captain": "Paul White WA"
@@ -1657,18 +1201,7 @@
           "name": "Tim Collins"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-PGN-SWL",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "PGN",
-            "name": "Pinguins"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "John Garnett",
       "captain": "Matt Anderson WA"
@@ -1709,28 +1242,7 @@
           "name": "Ryan McMillan"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-TBT-TBT",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "TBT",
-            "name": "The B Team"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TBT-TBT",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "TBT",
-            "name": "The B Team"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Campbell Hancock",
       "co_captain": "David Chernicoff"
@@ -1771,28 +1283,7 @@
           "name": "Val Gaifoulline"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-POW-POW",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "POW",
-            "name": "The Power"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-POW-POW",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "POW",
-            "name": "The Power"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "MK Walker",
       "captain": "Matthew Harjo"
@@ -1827,34 +1318,13 @@
           "name": "Richard Scott"
         },
         {
-          "name": "Zachary Peeples"
-        },
-        {
           "name": "Sterling Butterfield"
-        }
-      ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-DOG-DOG",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "DOG",
-            "name": "The Stray Dogs"
-          }
         },
         {
-          "match_key": "mnp-23-1-DOG-DOG",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "DOG",
-            "name": "The Stray Dogs"
-          }
+          "name": "Zachary Peeples"
         }
       ],
+      "schedule": [],
       "division": 0,
       "captain": "Glenden Hoyt",
       "co_captain": "Katja Rodgers"
@@ -1895,28 +1365,7 @@
           "name": "Stephen Brundle"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-TTT-TTT",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "TTT",
-            "name": "The Trailer Trashers"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TTT-TTT",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "TTT",
-            "name": "The Trailer Trashers"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Kevin Coulton",
       "co_captain": "Nic Cope"
@@ -1957,28 +1406,7 @@
           "name": "Will Kirkland"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-TWC-TWC",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "TWC",
-            "name": "The Wrecking Crew"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TWC-TWC",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "TWC",
-            "name": "The Wrecking Crew"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Alexa Philbeck",
       "co_captain": "Bryan Eastman"
@@ -1990,6 +1418,9 @@
       "roster": [
         {
           "name": "Daniel Belarmino"
+        },
+        {
+          "name": "Isabelle Grams"
         },
         {
           "name": "Jaran Jones"
@@ -2007,30 +1438,16 @@
           "name": "Michael Rausch"
         },
         {
+          "name": "Skye Fleming"
+        },
+        {
           "name": "Steph Hanlon"
         },
         {
           "name": "Steve Geluso"
-        },
-        {
-          "name": "Isabelle Grams"
-        },
-        {
-          "name": "Skye Fleming"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-BLK-SSD",
-          "week": "1",
-          "date": "20260126",
-          "side": "@",
-          "opp": {
-            "key": "SSD",
-            "name": "Salty Sea Dogs"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Jaran Jones",
       "co_captain": "Steph Hanlon"
@@ -2044,6 +1461,9 @@
           "name": "Alec Rodenhauser"
         },
         {
+          "name": "Chloe Bolton"
+        },
+        {
           "name": "David Weil WA"
         },
         {
@@ -2053,6 +1473,12 @@
           "name": "Josh Samson"
         },
         {
+          "name": "Mark Cohan"
+        },
+        {
+          "name": "Mark Vero"
+        },
+        {
           "name": "Matthew Greene"
         },
         {
@@ -2060,29 +1486,9 @@
         },
         {
           "name": "Paul Irvine"
-        },
-        {
-          "name": "Mark Vero"
-        },
-        {
-          "name": "Chloe Bolton"
-        },
-        {
-          "name": "Mark Cohan"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-1-PKT-SRF",
-          "week": "1",
-          "date": "20260126",
-          "side": "vs",
-          "opp": {
-            "key": "PKT",
-            "name": "Pocketeers"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "co_captain": "Josh Samson",
       "captain": "Matthew Greene"
@@ -2098,71 +1504,6 @@
       "date": "01/26/2026",
       "matches": [
         {
-          "match_key": "mnp-23-1-PGN-SWL",
-          "away_key": "PGN",
-          "away_name": "Pinguins",
-          "away_linked": true,
-          "home_key": "SWL",
-          "home_name": "Specials When Lit",
-          "home_linked": true,
-          "venue": {
-            "key": "8BT",
-            "name": "8-bit Arcade Bar"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-ADB-ICB",
-          "away_key": "ADB",
-          "away_name": "Admiraballs",
-          "away_linked": true,
-          "home_key": "ICB",
-          "home_name": "Incrediballs",
-          "home_linked": true,
-          "venue": {
-            "key": "ADM",
-            "name": "Admiral Pub"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-CRA-CPO",
-          "away_key": "CRA",
-          "away_name": "Castle Crashers",
-          "away_linked": true,
-          "home_key": "CPO",
-          "home_name": "Pants Optional",
-          "home_linked": true,
-          "venue": {
-            "key": "ANC",
-            "name": "Another Castle"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-BLK-SSD",
-          "away_key": "BLK",
-          "away_name": "Ballard Locks",
-          "away_linked": true,
-          "home_key": "SSD",
-          "home_name": "Salty Sea Dogs",
-          "home_linked": true,
-          "venue": {
-            "key": "BSS",
-            "name": "Ballard Smoke Shop"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-HHS-SKP",
-          "away_key": "HHS",
-          "away_name": "Hellhounds",
-          "away_linked": true,
-          "home_key": "SKP",
-          "home_name": "Slap Kraken Pop",
-          "home_linked": true,
-          "venue": {
-            "key": "KRA",
-            "name": "Kraken"
-          }
-        },
-        {
           "match_key": "mnp-23-1-DIH-SSS",
           "away_key": "DIH",
           "away_name": "Drain in Hell",
@@ -2173,305 +1514,6 @@
           "venue": {
             "key": "SHR",
             "name": "Shorty's"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-PKT-SRF",
-          "away_key": "PKT",
-          "away_name": "Pocketeers",
-          "away_linked": true,
-          "home_key": "SRF",
-          "home_name": "Surf Champs",
-          "home_linked": true,
-          "venue": {
-            "key": "GRY",
-            "name": "Gary's Place"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-RTR-RTR",
-          "away_key": "RTR",
-          "away_name": "Ramp Tramps",
-          "away_linked": true,
-          "home_key": "RTR",
-          "home_name": "Ramp Tramps",
-          "home_linked": true,
-          "venue": {
-            "key": "T4B",
-            "name": "The 4Bs"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TBT-TBT",
-          "away_key": "TBT",
-          "away_name": "The B Team",
-          "away_linked": true,
-          "home_key": "TBT",
-          "home_name": "The B Team",
-          "home_linked": true,
-          "venue": {
-            "key": "T4B",
-            "name": "The 4Bs"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TRL-TRL",
-          "away_key": "TRL",
-          "away_name": "Trolls!",
-          "away_linked": true,
-          "home_key": "TRL",
-          "home_name": "Trolls!",
-          "home_linked": true,
-          "venue": {
-            "key": "T4B",
-            "name": "The 4Bs"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-BAD-BAD",
-          "away_key": "BAD",
-          "away_name": "Bad Cats",
-          "away_linked": true,
-          "home_key": "BAD",
-          "home_name": "Bad Cats",
-          "home_linked": true,
-          "venue": {
-            "key": "AAB",
-            "name": "Add-a-Ball"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-DSV-DSV",
-          "away_key": "DSV",
-          "away_name": "Death Savers",
-          "away_linked": true,
-          "home_key": "DSV",
-          "home_name": "Death Savers",
-          "home_linked": true,
-          "venue": {
-            "key": "AAB",
-            "name": "Add-a-Ball"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-PBR-PBR",
-          "away_key": "PBR",
-          "away_name": "Point Breakers",
-          "away_linked": true,
-          "home_key": "PBR",
-          "home_name": "Point Breakers",
-          "home_linked": true,
-          "venue": {
-            "key": "AAB",
-            "name": "Add-a-Ball"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-KNR-KNR",
-          "away_key": "KNR",
-          "away_name": "Knight Riders",
-          "away_linked": true,
-          "home_key": "KNR",
-          "home_name": "Knight Riders",
-          "home_linked": true,
-          "venue": {
-            "key": "GPA",
-            "name": "Georgetown Pizza and Arcade"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-SCN-SCN",
-          "away_key": "SCN",
-          "away_name": "Seacorns",
-          "away_linked": true,
-          "home_key": "SCN",
-          "home_name": "Seacorns",
-          "home_linked": true,
-          "venue": {
-            "key": "GPA",
-            "name": "Georgetown Pizza and Arcade"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TWC-TWC",
-          "away_key": "TWC",
-          "away_name": "The Wrecking Crew",
-          "away_linked": true,
-          "home_key": "TWC",
-          "home_name": "The Wrecking Crew",
-          "home_linked": true,
-          "venue": {
-            "key": "GPA",
-            "name": "Georgetown Pizza and Arcade"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-DOG-DOG",
-          "away_key": "DOG",
-          "away_name": "The Stray Dogs",
-          "away_linked": true,
-          "home_key": "DOG",
-          "home_name": "The Stray Dogs",
-          "home_linked": true,
-          "venue": {
-            "key": "HND",
-            "name": "Hounds Tooth"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-LAS-LAS",
-          "away_key": "LAS",
-          "away_name": "Little League All Stars",
-          "away_linked": true,
-          "home_key": "LAS",
-          "home_name": "Little League All Stars",
-          "home_linked": true,
-          "venue": {
-            "key": "IBX",
-            "name": "Ice Box"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-PYC-PYC",
-          "away_key": "PYC",
-          "away_name": "Pinballycule",
-          "away_linked": true,
-          "home_key": "PYC",
-          "home_name": "Pinballycule",
-          "home_linked": true,
-          "venue": {
-            "key": "IBX",
-            "name": "Ice Box"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-POW-POW",
-          "away_key": "POW",
-          "away_name": "The Power",
-          "away_linked": true,
-          "home_key": "POW",
-          "home_name": "The Power",
-          "home_linked": true,
-          "venue": {
-            "key": "IBX",
-            "name": "Ice Box"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-DTP-DTP",
-          "away_key": "DTP",
-          "away_name": "DTP",
-          "away_linked": true,
-          "home_key": "DTP",
-          "home_name": "DTP",
-          "home_linked": true,
-          "venue": {
-            "key": "JUP",
-            "name": "Jupiter"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-FBP-FBP",
-          "away_key": "FBP",
-          "away_name": "Flippin Big Points",
-          "away_linked": true,
-          "home_key": "FBP",
-          "home_name": "Flippin Big Points",
-          "home_linked": true,
-          "venue": {
-            "key": "JUP",
-            "name": "Jupiter"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-JMF-JMF",
-          "away_key": "JMF",
-          "away_name": "Middle Flippers",
-          "away_linked": true,
-          "home_key": "JMF",
-          "home_name": "Middle Flippers",
-          "home_linked": true,
-          "venue": {
-            "key": "JUP",
-            "name": "Jupiter"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-NLT-NLT",
-          "away_key": "NLT",
-          "away_name": "Northern Lights",
-          "away_linked": true,
-          "home_key": "NLT",
-          "home_name": "Northern Lights",
-          "home_linked": true,
-          "venue": {
-            "key": "OLF",
-            "name": "Olaf's"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-RMS-RMS",
-          "away_key": "RMS",
-          "away_name": "Magic Saves",
-          "away_linked": true,
-          "home_key": "RMS",
-          "home_name": "Magic Saves",
-          "home_linked": true,
-          "venue": {
-            "key": "RAY",
-            "name": "Raygun Lounge"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-TTT-TTT",
-          "away_key": "TTT",
-          "away_name": "The Trailer Trashers",
-          "away_linked": true,
-          "home_key": "TTT",
-          "home_name": "The Trailer Trashers",
-          "home_linked": true,
-          "venue": {
-            "key": "STN",
-            "name": "Seattle Tavern and Pool Hall"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-NMC-NMC",
-          "away_key": "NMC",
-          "away_name": "Neuromancers",
-          "away_linked": true,
-          "home_key": "NMC",
-          "home_name": "Neuromancers",
-          "home_linked": true,
-          "venue": {
-            "key": "TWP",
-            "name": "Time Warp"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-ETB-ETB",
-          "away_key": "ETB",
-          "away_name": "Eighteen Ball Deluxe",
-          "away_linked": true,
-          "home_key": "ETB",
-          "home_name": "Eighteen Ball Deluxe",
-          "home_linked": true,
-          "venue": {
-            "key": "TDN",
-            "name": "Touchdown's Sports Bar and Grill"
-          }
-        },
-        {
-          "match_key": "mnp-23-1-SHK-SHK",
-          "away_key": "SHK",
-          "away_name": "Sharks",
-          "away_linked": true,
-          "home_key": "SHK",
-          "home_name": "Sharks",
-          "home_linked": true,
-          "venue": {
-            "key": "WAT",
-            "name": "Waterland Arcade"
           }
         }
       ]

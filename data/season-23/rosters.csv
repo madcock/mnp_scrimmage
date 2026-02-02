@@ -1,13 +1,13 @@
 Bob Lyman,ADB,P
 Chris Borgstadt,ADB,A
-Michael Tomber,ADB,C
-Scott Lee WA,ADB,P
 Jackson McComish,ADB,P
-Seth Smith,ADB,P
-Nichole Casado,ADB,P
-Mohamed Sawani,ADB,P
-Thomas Homan,ADB,P
 Jerry Duncan,ADB,P
+Michael Tomber,ADB,C
+Mohamed Sawani,ADB,P
+Nichole Casado,ADB,P
+Scott Lee WA,ADB,P
+Seth Smith,ADB,P
+Thomas Homan,ADB,P
 Amber Roy,BAD,P
 Chaynee Young,BAD,P
 Chelsie Hulka,BAD,P
@@ -21,13 +21,13 @@ Sarah Munden,BAD,P
 Armand Go,CRA,P
 Chris Tinney,CRA,A
 Connor Vermeys,CRA,P
+Craig R Jones,CRA,P
 Jay Ostby,CRA,P
 Joshua Francis,CRA,C
 Justin Ari,CRA,P
 Ken Disbennett,CRA,P
 MJ Moscola,CRA,P
 Nate Tompkins,CRA,P
-Craig R Jones,CRA,P
 Amy Frame,TRL,P
 Angie Parker,TRL,P
 Benny Phanichkul,TRL,P
@@ -48,6 +48,7 @@ Jordan Shankle,DSV,P
 Kiki V,DSV,P
 Max Stewart,DSV,P
 Zac Petersen,DSV,C
+Clare Newell,DIH,P
 Danae Hackett,DIH,P
 Gus Voss,DIH,C
 Jacque Simmons,DIH,P
@@ -57,17 +58,16 @@ Lucy Hoffman,DIH,P
 Madison Masterson,DIH,A
 Matthew Levi Tate,DIH,P
 Ryan Tamm,DIH,P
-Clare Newell,DIH,P
 Alex Hawley,DTP,P
 Alex Skinner ,DTP,A
 Dwayne Collins,DTP,C
 Kevin Coffey,DTP,P
 Kristin Vick,DTP,P
+Marissa Rodriguez,DTP,P
 Matthew Sherwood,DTP,P
 Nick Taseris,DTP,P
 Ryan Loftus,DTP,P
 Tom Baisden,DTP,P
-Marissa Rodriguez,DTP,P
 Bill Nary,ETB,P
 Eva Ngo,ETB,P
 John McConnell,ETB,C
@@ -80,13 +80,13 @@ Shaun Crumb,ETB,P
 Stephen Frontis,ETB,P
 Brian Reinhard,FBP,P
 Clay Shelton,FBP,A
+Dakota Green,FBP,P
 Dakota Warden,FBP,C
 Los Rangel,FBP,P
 Lui Rangel,FBP,P
 Mae Collin,FBP,P
 Melanie Meyer WA,FBP,P
 Xander Jackson,FBP,P
-Dakota Green,FBP,P
 Andrew Hopper,HHS,P
 Clare Green,HHS,C
 Daniel Mays,HHS,A
@@ -124,18 +124,19 @@ Jared Bayliss,LAS,C
 Jon Erickson WA,LAS,P
 Kelli Goins,LAS,P
 Michael Fricke,LAS,P
-Rolo Carey,LAS,P
 Michael Gray,LAS,P
+Rolo Carey,LAS,P
 Dillon Heath,RMS,P
 Eric Chambers,RMS,A
+Jandy Stephens,RMS,P
+Jon S Bell,RMS,P
 Kevin Deschenes,RMS,P
 Matt Grunewald,RMS,P
 Michael Zuino,RMS,C
 Michelle Loprieno,RMS,P
 Ryan Malone,RMS,P
 Scott Kelly,RMS,P
-Jandy Stephens,RMS,P
-Jon S Bell,RMS,P
+Alisha Maligon,JMF,P
 Bre Lloyd,JMF,P
 Diane Panagiotopoulos,JMF,A
 Ian Lucas,JMF,P
@@ -145,7 +146,6 @@ Jimmie Eiseman,JMF,P
 Matthew Dane Anderson,JMF,P
 Nate Cantor,JMF,C
 Sam Stiles,JMF,P
-Alisha Maligon,JMF,P
 Andrew Meuser,NMC,P
 Brian Baskoff,NMC,P
 Cassandra Dymock,NMC,P
@@ -168,6 +168,7 @@ Steve Hedback,NLT,P
 Tristan Ward,NLT,P
 Aaron Garberding,CPO,P
 Erik Rikansrud,CPO,P
+Evan Adkins,CPO,P
 Lefty Sitaras,CPO,P
 Liberty Ruderman,CPO,A
 Mandy Woodard,CPO,C
@@ -175,26 +176,25 @@ Michael Miller,CPO,P
 Owen Weyland,CPO,P
 Sandy Magallanes,CPO,P
 William Scott Jordan,CPO,P
-Evan Adkins,CPO,P
 Andyroo Callan,PYC,C
 Astri Niederkorn,PYC,P
 Bobby Boden,PYC,P
 Chase Engdall,PYC,P
 Donna Hucklebee,PYC,P
+Genevieve Forrester,PYC,P
 Hunter Vogt,PYC,A
 Jarrett Gaddy,PYC,P
 Mason Dunbar,PYC,P
 Matt Galbraith,PYC,P
-Genevieve Forrester,PYC,P
-Altwin Hawksford,PGN,P
+Anthony McCammant,PGN,P
+Bud Lipke,PGN,P
 Canyon Mosely,PGN,P
 Emily Henshaw,PGN,P
-Forrest Avery,PGN,P
+Jeffrey Lawrence,PGN,P
 Jonathan Allen,PGN,P
-Julianne Hassman,PGN,P
 Peyton Conrad,PGN,A
 Ryan Tupper,PGN,C
-Sebastian Jennings,PGN,P
+Ryan Whalen,PGN,P
 Sookie Sookram,PGN,P
 Andrew Furdell,PKT,P
 Chris Vela,PKT,P
@@ -203,9 +203,9 @@ Emily Young,PKT,A
 James Furdell,PKT,P
 Kelsie Sherman Hall,PKT,P
 Lonnie Langford,PKT,C
+Mandie Moore,PKT,P
 Nick Filer,PKT,P
 Randall Olson,PKT,P
-Mandie Moore,PKT,P
 Amber Marie Simon,PBR,P
 Ben Simmons,PBR,P
 Casey Benton,PBR,P
@@ -221,11 +221,11 @@ Andy Yarritu,RTR,P
 Brian Kirk WA,RTR,P
 Brian O'Neill WA,RTR,P
 Brooke Borcherding,RTR,P
+Chelsea Rakonza,RTR,P
 Emily Beirne,RTR,P
 Isaac Kaplan-Woolner,RTR,A
 Jason Boekeloo,RTR,P
 Maureen Hendrix,RTR,C
-Chelsea Rakonza,RTR,P
 Demarus Tevuk,SSD,P
 Donna Ruacho,SSD,P
 Evan O'Brien,SSD,P
@@ -234,18 +234,18 @@ Jesse Fallahi,SSD,P
 Kieonna Ford,SSD,P
 Lauren Aiello,SSD,C
 Sean Gallagher,SSD,P
-Tyler Morgan,SSD,P
 Spencer Anderson,SSD,P
+Tyler Morgan,SSD,P
 Claire Burke,SCN,A
+Corbin Sheffels,SCN,P
 Danielle Crowson,SCN,C
 Jesse Labbe,SCN,P
+Lucas Marcolongo,SCN,P
 Michael Adcock,SCN,P
 Nic Crowson,SCN,P
 Nick Delehanty,SCN,P
 Olivia Orni,SCN,P
 Shirley Recinos,SCN,P
-Lucas Marcolongo,SCN,P
-Corbin Sheffels,SCN,P
 Curtis Granger,SHK,P
 Janelle Oakley,SHK,P
 Kat Martinez,SHK,P
@@ -314,8 +314,8 @@ Greg Levine,DOG,P
 Katie Viray,DOG,P
 Katja Rodgers,DOG,A
 Richard Scott,DOG,P
-Zachary Peeples,DOG,P
 Sterling Butterfield,DOG,P
+Zachary Peeples,DOG,P
 Alicia Seftel,TTT,P
 Blake Butler,TTT,P
 Dana Harper,TTT,P
@@ -337,23 +337,23 @@ Marshall Denton,TWC,P
 Travis Maisch,TWC,P
 Will Kirkland,TWC,P
 Daniel Belarmino,BLK,P
+Isabelle Grams,BLK,P
 Jaran Jones,BLK,C
 Jaron Sheffield,BLK,P
 Kathleen Rush,BLK,P
 Lucas Haines,BLK,P
 Michael Rausch,BLK,P
+Skye Fleming,BLK,P
 Steph Hanlon,BLK,A
 Steve Geluso,BLK,P
-Isabelle Grams,BLK,P
-Skye Fleming,BLK,P
 Alec Rodenhauser,SRF,P
+Chloe Bolton,SRF,P
 David Weil WA,SRF,P
 Elyssa Cichy,SRF,P
 Josh Samson,SRF,A
+Mark Cohan,SRF,P
+Mark Vero,SRF,P
 Matthew Greene,SRF,C
 Matthew O'Brien,SRF,P
 Paul Irvine,SRF,P
-Mark Vero,SRF,P
-Chloe Bolton,SRF,P
-Mark Cohan,SRF,P
 
