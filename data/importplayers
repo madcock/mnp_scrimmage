@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rsync -avz -e ssh mnpdocker@143.198.61.154:/home/mnpdocker/data/.shadows /home/mnpdocker/apps/mnpdocker/data
+rsync -avz -e ssh mnpdocker@143.198.61.154:/home/mnpdocker/data/.tokens /home/mnpdocker/apps/mnpdocker/data
+rsync -avz -e ssh mnpdocker@143.198.61.154:/home/mnpdocker/data/players/ /home/mnpdocker/apps/mnpdocker/data/players/
