@@ -179,4 +179,4 @@ fetchData();
   </tr>
 </table>
 
-<br><a href="/logout{{#redirect_url}}?redirect_url={{.}}{{/redirect_url}}">Logout</a>
+<br><a href="/logout{{#redirect_url}}?redirect_url={{.}}{{/redirect_url}}{{^redirect_url}}?redirect_url=./login{{/redirect_url}}"">Logout</a>
