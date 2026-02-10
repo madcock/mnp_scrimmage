@@ -63,7 +63,8 @@ router.get('/profile',function(req,res) {
   var template = fs.readFileSync('./template/profile.html').toString();
   var html = mustache.render(base, {
     title: 'Profile',
-    player: player
+    player: player,
+    playerFN: players.get(ukey).name.split(' ')[0]
   }, {
     content: template
   });
@@ -71,10 +72,12 @@ router.get('/profile',function(req,res) {
 });
 
 router.get('/forgotpass',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   console.log('/forgotpass post');
   var template = fs.readFileSync('./template/forgotpass.html').toString();
   var html = mustache.render(base, {
-    title: 'Forgot Password'
+    title: 'Forgot Password',
+    playerFN: players.get(ukey).name.split(' ')[0]
   }, {
     content: template
   });
@@ -112,7 +115,8 @@ router.get('/conduct_thanks',function(req,res) {
   console.log('/conduct_thanks post');
   var template = fs.readFileSync('./template/conduct_thanks.html').toString();
   var html = mustache.render(base, {
-    title: 'Thank you'
+    title: 'Thank you',
+    player: players.get(ukey).name.split(' ')[0]
   }, {
     content: template
   });
@@ -146,11 +150,13 @@ router.get('/me',function(req,res) {
 });
 
 router.get('/signup',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   var template = fs.readFileSync('./template/signup.html').toString();
   var question = players.getQuestion();
 
   var html = mustache.render(base,{
     title: 'Account Sign-Up',
+    player: players.get(ukey).name.split(' ')[0],
     redirect_url: req.params.redirect_url,
     venues: venues.current(),
     questionX: question
@@ -193,7 +199,8 @@ router.post('/signup',function(req,res) {
 
     var template = fs.readFileSync('./template/thanks.html').toString();
     var html = mustache.render(base, {
-      title: 'Thanks'
+      title: 'Thanks',
+      player: players.get(ukey).name.split(' ')[0]
     },{
       content: template
     });
@@ -236,6 +243,7 @@ router.get('/createpass',function(req,res) {
 
   var html = mustache.render(base, {
     title: 'Create Password',
+    player: players.get(ukey).name.split(' ')[0],
     ukey: ukey
   }, {
     content: template
@@ -275,6 +283,7 @@ router.get('/welcome',function(req,res) {
 
   var html = mustache.render(base,{
     title: 'Welcome',
+    player: players.get(ukey).name.split(' ')[0],
     name: player.name,
     pkey: player.key
   },{

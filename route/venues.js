@@ -8,6 +8,7 @@ const machines = require('../model/machines');
 const venues = require('../model/venues');
 const seasons = require('../model/seasons');
 const config = require('../config');
+const players = require('../model/players');
 
 const base = fs.readFileSync('./template/base.html').toString();
 
@@ -31,6 +32,7 @@ router.get('/venues',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Venues',
+    playerFN: players.get(ukey).name.split(' ')[0],
     venues: list,
     canCreate: canCreate
   },{
@@ -50,7 +52,8 @@ router.get('/venues/create',function(req,res) {
 
   const template = fs.readFileSync('./template/venue_create.html').toString();
   const html = mustache.render(base,{
-    title: 'Create Venue'
+    title: 'Create Venue',
+    playerFN: players.get(ukey).name.split(' ')[0]
     //TODO: Include list of venue keys to avoid collision?
   },{
     content: template
@@ -122,6 +125,7 @@ router.get('/venues/:key',function(req,res) {
     return res.redirect('/venues');
   }
 
+  const ukey = req.user.key || 'ANON';
   const canAdd = canEdit(venue, req.user);
   const canRemove = canEdit(venue, req.user);
 
@@ -143,6 +147,7 @@ router.get('/venues/:key',function(req,res) {
   const template = fs.readFileSync('./template/venue.html').toString();
   const html = mustache.render(base,{
     title: name,
+    playerFN: players.get(ukey).name.split(' ')[0],
     canAdd: canAdd,
     canRemove: canRemove,
     venue_id: key,

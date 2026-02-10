@@ -7,6 +7,7 @@ const makeKey = require('../lib/make-key');
 const venues = require('../model/venues');
 const seasons = require('../model/seasons');
 const matches = require('../model/matches'); //For standings
+const players = require('../model/players');
 const stats = require('../model/stats');
 const IPR = require('../model/ratings');
 const { ROOT } = require('../constants');
@@ -40,6 +41,7 @@ router.use(function(req,res,next) {
 });
 
 router.get('/teams',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   const season = seasons.get();
   const template = fs.readFileSync('./template/teams.html').toString();
 
@@ -59,6 +61,7 @@ router.get('/teams',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Teams',
+    playerFN: players.get(ukey).name.split(' ')[0],
     teams: list
   },{
     content: template
@@ -94,6 +97,8 @@ function getGroupForTeam(teamKey) {
 }
 
 router.get('/teams/:team_id',function(req,res) {
+  const ukey = req.user.key || 'ANON';
+
   if(req.params.team_id==="BYE") {
     res.redirect('/teams');
     return;
@@ -184,6 +189,7 @@ router.get('/teams/:team_id',function(req,res) {
     canRemove: req.user.isLeagueAdmin,
     team_id: team.key,
     title: team.name,
+    playerFN: players.get(ukey).name.split(' ')[0],
     name: team.name,
     group: group,
     venue: vname,

@@ -31,9 +31,10 @@ router.get('/',function(req,res) {
 //      announcementsContent+=chunk.toString();
 //    });
 //  });
-  
+  const ukey = req.user.key || 'ANON';  
   const html = mustache.render(base,{
-    title: 'Home'
+    title: 'Home',
+    playerFN: players.get(ukey).name.split(' ')[0]
   },{
     content: announcementsContent
   });
@@ -63,6 +64,7 @@ router.get('/standings',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Standings',
+    playerFN: players.get(ukey).name.split(' ')[0],
     divisions
   },{
     content: template
@@ -72,6 +74,7 @@ router.get('/standings',function(req,res) {
 });
 
 router.get('/schedule',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/schedule.html').toString();
   const season = seasons.get(); //TODO Allow other seasons.
 
@@ -81,6 +84,7 @@ router.get('/schedule',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Schedule',
+    playerFN: players.get(ukey).name.split(' ')[0],
     weeks: weeks
   },{
     content: template
@@ -120,7 +124,8 @@ router.get('/stats',function(req,res) {
 
   const divisions = Object.keys(divs).map(divId => {
     const list = divs[divId];
-    const players = list.filter(p => p.num_matches > 0);
+    const 
+players = list.filter(p => p.num_matches > 0);
 
     const max = players.reduce((max, p) => {
       return Math.max(p.num_matches, max);
@@ -148,6 +153,7 @@ router.get('/stats',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Stats',
+    playerFN: players.get(ukey).name.split(' ')[0],
     divisions
   }, {
     content: template
@@ -192,7 +198,8 @@ router.get('/ifparules', function(req,res) {
 router.get('/new-teams',function(req,res) {
   const template = fs.readFileSync('./template/call-for-teams.html').toString();
   const html = mustache.render(base,{
-    title: 'Call For Teams'
+    title: 'Call For Teams',
+    playerFN: players.get(ukey).name.split(' ')[0]
   },{
     content: template
   });
@@ -200,9 +207,11 @@ router.get('/new-teams',function(req,res) {
 });
 
 router.get('/ratings',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/ratings.html').toString();
   const html = mustache.render(base,{
-    title: 'Ratings'
+    title: 'Ratings',
+    playerFN: players.get(ukey).name.split(' ')[0]
   },{
     content: template
   });
@@ -210,9 +219,11 @@ router.get('/ratings',function(req,res) {
 });
 
 router.get('/newplayers',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/newplayers.html').toString();
   const html = mustache.render(base,{
-    title: 'New Player Information'
+    title: 'New Player Information',
+    playerFN: players.get(ukey).name.split(' ')[0]
   },{
     content: template
   });
@@ -220,9 +231,11 @@ router.get('/newplayers',function(req,res) {
 });
 
 router.get('/conduct',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/conduct.html').toString();
   const html = mustache.render(base,{
-    title: 'Report Player Conduct'
+    title: 'Report Player Conduct',
+    playerFN: players.get(ukey).name.split(' ')[0]
   },{
     content: template
   });
@@ -248,10 +261,12 @@ function format(num) {
 // TODO: This route seems like a huge security hole, but it is a
 //       convenient way to lookup a player key by name.
 router.get('/players',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/players.html').toString();
 
   const html = mustache.render(base,{
     title: 'Players',
+    playerFN: players.get(ukey).name.split(' ')[0],
     players: players.all()
   },{
     content: template
@@ -288,6 +303,7 @@ router.get('/rosters.csv',function(req,res) {
 });
 
 router.get('/players/:key',function(req,res) {
+  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/player.html').toString();
   // var p = players.get(req.params.key);
   // //TODO: Need something different than using players == users.
@@ -301,6 +317,7 @@ router.get('/players/:key',function(req,res) {
   const st = fullStats.divisions.all;
   const html = mustache.render(base,{
     title: 'Player',
+    playerFN: players.get(ukey).name.split(' ')[0],
     name,
     num_matches: st.num_matches,
     points_won: st.points.won,
