@@ -107,7 +107,7 @@ function sendCreate(res,errors) {
 
   var html = mustache.render(base,{
     title: 'Create Match',
-    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
+    playerFN: "ROOT",
     venues: venues.all(),
     errors: errors
   },{
