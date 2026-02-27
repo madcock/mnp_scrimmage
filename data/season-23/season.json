@@ -267,7 +267,7 @@
           "name": "Alex Hawley"
         },
         {
-          "name": "Alex Skinner "
+          "name": "Alex Skinner"
         },
         {
           "name": "Dwayne Collins"
@@ -296,7 +296,7 @@
       ],
       "schedule": [],
       "division": 0,
-      "co_captain": "Alex Skinner ",
+      "co_captain": "Alex Skinner",
       "captain": "Dwayne Collins"
     },
     "ETB": {
@@ -575,7 +575,18 @@
           "name": "Scott Kelly"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-RMS-NMC",
+          "week": "2",
+          "date": "20260316",
+          "side": "@",
+          "opp": {
+            "key": "NMC",
+            "name": "Neuromancers"
+          }
+        }
+      ],
       "division": 0,
       "co_captain": "Eric Chambers",
       "captain": "Michael Zuino"
@@ -657,7 +668,18 @@
           "name": "Wardell Baldwin III"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-RMS-NMC",
+          "week": "2",
+          "date": "20260316",
+          "side": "vs",
+          "opp": {
+            "key": "RMS",
+            "name": "Magic Saves"
+          }
+        }
+      ],
       "division": 0,
       "co_captain": "Sean Bray",
       "captain": "Tim Uomoto"
@@ -1055,7 +1077,7 @@
           "name": "Nicole Svoboda"
         },
         {
-          "name": "Nix Brown "
+          "name": "Nix Brown"
         },
         {
           "name": "Ryan Winslow"
@@ -1514,6 +1536,29 @@
           "venue": {
             "key": "SHR",
             "name": "Shorty's"
+          }
+        }
+      ]
+    },
+    {
+      "n": "2",
+      "label": "WEEK 2",
+      "code": "WK2",
+      "isPlayoffs": false,
+      "isSpecial": false,
+      "date": "03/16/2026",
+      "matches": [
+        {
+          "match_key": "mnp-23-2-RMS-NMC",
+          "away_key": "RMS",
+          "away_name": "Magic Saves",
+          "away_linked": true,
+          "home_key": "NMC",
+          "home_name": "Neuromancers",
+          "home_linked": true,
+          "venue": {
+            "key": "TWP",
+            "name": "Time Warp"
           }
         }
       ]
