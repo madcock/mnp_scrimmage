@@ -64,7 +64,7 @@ router.get('/profile',function(req,res) {
   var html = mustache.render(base, {
     title: 'Profile',
     player: player,
-    playerFN: players.get(ukey).name.split(' ')[0]
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   }, {
     content: template
   });
@@ -77,7 +77,7 @@ router.get('/forgotpass',function(req,res) {
   var template = fs.readFileSync('./template/forgotpass.html').toString();
   var html = mustache.render(base, {
     title: 'Forgot Password',
-    playerFN: players.get(ukey).name.split(' ')[0]
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   }, {
     content: template
   });
@@ -116,7 +116,7 @@ router.get('/conduct_thanks',function(req,res) {
   var template = fs.readFileSync('./template/conduct_thanks.html').toString();
   var html = mustache.render(base, {
     title: 'Thank you',
-    player: players.get(ukey).name.split(' ')[0]
+    player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   }, {
     content: template
   });
@@ -156,7 +156,7 @@ router.get('/signup',function(req,res) {
 
   var html = mustache.render(base,{
     title: 'Account Sign-Up',
-    player: players.get(ukey).name.split(' ')[0],
+    player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     redirect_url: req.params.redirect_url,
     venues: venues.current(),
     questionX: question
@@ -200,7 +200,7 @@ router.post('/signup',function(req,res) {
     var template = fs.readFileSync('./template/thanks.html').toString();
     var html = mustache.render(base, {
       title: 'Thanks',
-      player: players.get(ukey).name.split(' ')[0]
+      player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
     },{
       content: template
     });
@@ -243,7 +243,7 @@ router.get('/createpass',function(req,res) {
 
   var html = mustache.render(base, {
     title: 'Create Password',
-    player: players.get(ukey).name.split(' ')[0],
+    player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     ukey: ukey
   }, {
     content: template
@@ -283,7 +283,7 @@ router.get('/welcome',function(req,res) {
 
   var html = mustache.render(base,{
     title: 'Welcome',
-    player: players.get(ukey).name.split(' ')[0],
+    player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     name: player.name,
     pkey: player.key
   },{

@@ -34,7 +34,7 @@ router.get('/',function(req,res) {
   const ukey = req.user.key || 'ANON';  
   const html = mustache.render(base,{
     title: 'Home',
-    playerFN: players.get(ukey).name.split(' ')[0]
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   },{
     content: announcementsContent
   });
@@ -64,7 +64,7 @@ router.get('/standings',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Standings',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     divisions
   },{
     content: template
@@ -84,7 +84,7 @@ router.get('/schedule',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Schedule',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     weeks: weeks
   },{
     content: template
@@ -153,7 +153,7 @@ players = list.filter(p => p.num_matches > 0);
 
   const html = mustache.render(base,{
     title: 'Stats',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     divisions
   }, {
     content: template
@@ -199,7 +199,7 @@ router.get('/new-teams',function(req,res) {
   const template = fs.readFileSync('./template/call-for-teams.html').toString();
   const html = mustache.render(base,{
     title: 'Call For Teams',
-    playerFN: players.get(ukey).name.split(' ')[0]
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   },{
     content: template
   });
@@ -211,7 +211,7 @@ router.get('/ratings',function(req,res) {
   const template = fs.readFileSync('./template/ratings.html').toString();
   const html = mustache.render(base,{
     title: 'Ratings',
-    playerFN: players.get(ukey).name.split(' ')[0]
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   },{
     content: template
   });
@@ -223,7 +223,7 @@ router.get('/newplayers',function(req,res) {
   const template = fs.readFileSync('./template/newplayers.html').toString();
   const html = mustache.render(base,{
     title: 'New Player Information',
-    playerFN: players.get(ukey).name.split(' ')[0]
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   },{
     content: template
   });
@@ -235,7 +235,7 @@ router.get('/conduct',function(req,res) {
   const template = fs.readFileSync('./template/conduct.html').toString();
   const html = mustache.render(base,{
     title: 'Report Player Conduct',
-    playerFN: players.get(ukey).name.split(' ')[0]
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   },{
     content: template
   });
@@ -266,7 +266,7 @@ router.get('/players',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Players',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     players: players.all()
   },{
     content: template
@@ -317,7 +317,7 @@ router.get('/players/:key',function(req,res) {
   const st = fullStats.divisions.all;
   const html = mustache.render(base,{
     title: 'Player',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     name,
     num_matches: st.num_matches,
     points_won: st.points.won,

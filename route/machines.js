@@ -31,7 +31,7 @@ router.get('/machines',function(req,res) {
 
   var html = mustache.render(base, {
     title: 'Machines',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     machines: list,
     canAdd: canAdd,
     canRemove: canRemove

@@ -61,7 +61,7 @@ router.get('/teams',function(req,res) {
 
   const html = mustache.render(base,{
     title: 'Teams',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     teams: list
   },{
     content: template
@@ -189,7 +189,7 @@ router.get('/teams/:team_id',function(req,res) {
     canRemove: req.user.isLeagueAdmin,
     team_id: team.key,
     title: team.name,
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     name: team.name,
     group: group,
     venue: vname,

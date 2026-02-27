@@ -84,7 +84,7 @@ console.log("GET /matches");
     redirect_url: '/matches',
     style: style,
     title: 'Matches',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     // matches: boxes,
     week_nums: nums,
     weeks: weeks,
@@ -107,7 +107,7 @@ function sendCreate(res,errors) {
 
   var html = mustache.render(base,{
     title: 'Create Match',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     venues: venues.all(),
     errors: errors
   },{
@@ -297,7 +297,7 @@ router.get('/matches/:match_id/venue',function(req,res) {
   var html = mustache.render(base, {
     redirect_url: '/matches/'+match.key+'/venue',
     title: match.venue.name,
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     name: match.name,
     match_id: match.key,
     key: match.key,
@@ -420,7 +420,7 @@ function renderTeam(params) {
   var html = mustache.render(base,{
     redirect_url: params.redirect_url || '/matches/' + match.key,
     title: params.label + ' Team',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     name: match.name,
     team_rating: teamRating,
     team_handicap: teamHandicap,
@@ -782,7 +782,7 @@ function renderMatch(params) {
 
   var html = mustache.render(base, {
     title: 'Match',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     match: match, //TODO: Some params need to be calc'd, but most stuff is in match.
     name: match.name || match.key,
     venue: venue.name,
@@ -912,7 +912,7 @@ router.get('/games/:key.:round.:n',function(req,res) {
   var html = mustache.render(base, {
     redirect_url: '/games/'+req.params.key+'.'+round+'.'+n,
     title: 'Game',
-    playerFN: players.get(ukey).name.split(' ')[0],
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
     style: css,
     name: match.name,
     key: match.key,
