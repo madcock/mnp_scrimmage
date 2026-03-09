@@ -56,7 +56,7 @@ router.post('/login',function(req,res) {
 });
 
 router.get('/profile',function(req,res) {
-  var ukey = req.user.key;
+  const ukey = req.user.key || 'ANON';
   var player = players.get(ukey);
   if(!player) { return res.redirect('/login?redirect_url=/profile'); }
 
@@ -75,6 +75,7 @@ router.get('/forgotpass',function(req,res) {
   const ukey = req.user.key || 'ANON';
   console.log('/forgotpass post');
   var template = fs.readFileSync('./template/forgotpass.html').toString();
+  const ukey = req.user.key || 'ANON';
   var html = mustache.render(base, {
     title: 'Forgot Password',
     playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
@@ -114,6 +115,7 @@ router.post('/conduct', function(req,res) {
 router.get('/conduct_thanks',function(req,res) {
   console.log('/conduct_thanks post');
   var template = fs.readFileSync('./template/conduct_thanks.html').toString();
+  const ukey = req.user.key || 'ANON';
   var html = mustache.render(base, {
     title: 'Thank you',
     player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
@@ -154,6 +156,7 @@ router.get('/signup',function(req,res) {
   var template = fs.readFileSync('./template/signup.html').toString();
   var question = players.getQuestion();
 
+  const ukey = req.user.key || 'ANON';
   var html = mustache.render(base,{
     title: 'Account Sign-Up',
     player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
@@ -198,6 +201,7 @@ router.post('/signup',function(req,res) {
     }
 
     var template = fs.readFileSync('./template/thanks.html').toString();
+    const ukey = req.user.key || 'ANON';
     var html = mustache.render(base, {
       title: 'Thanks',
       player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
@@ -235,7 +239,7 @@ router.get('/forgotpassword/:token',function(req,res) {
 router.get('/createpass',function(req,res) {
   var template = fs.readFileSync('./template/createpass.html').toString();
 
-  var ukey = req.user.key;
+  const ukey = req.user.key || 'ANON';
 
   console.log("GET /createpass ukey: ",ukey);
 
@@ -281,6 +285,7 @@ router.get('/welcome',function(req,res) {
     return res.redirect('/login');
   }
 
+  const ukey = req.user.key || 'ANON';
   var html = mustache.render(base,{
     title: 'Welcome',
     player: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",

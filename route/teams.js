@@ -59,6 +59,7 @@ router.get('/teams',function(req,res) {
   // sort by name
   list.sort(byName);
 
+  const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
     title: 'Teams',
     playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
@@ -184,6 +185,7 @@ router.get('/teams/:team_id',function(req,res) {
 
   let teamHandicap = expectedHcp(teamRating, lineup);
 
+  const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
     canAdd: req.user.isLeagueAdmin,
     canRemove: req.user.isLeagueAdmin,

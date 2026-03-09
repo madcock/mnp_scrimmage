@@ -145,6 +145,7 @@ router.get('/venues/:key',function(req,res) {
   list.sort((a,b) => [a.name, b.name].sort()[0] == a.name ? -1 : 1);
 
   const template = fs.readFileSync('./template/venue.html').toString();
+  const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
     title: name,
     playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER",
