@@ -125,7 +125,6 @@ router.get('/venues/:key',function(req,res) {
     return res.redirect('/venues');
   }
 
-  const ukey = req.user.key || 'ANON';
   const canAdd = canEdit(venue, req.user);
   const canRemove = canEdit(venue, req.user);
 

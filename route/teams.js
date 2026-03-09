@@ -41,7 +41,6 @@ router.use(function(req,res,next) {
 });
 
 router.get('/teams',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   const season = seasons.get();
   const template = fs.readFileSync('./template/teams.html').toString();
 
@@ -98,7 +97,6 @@ function getGroupForTeam(teamKey) {
 }
 
 router.get('/teams/:team_id',function(req,res) {
-  const ukey = req.user.key || 'ANON';
 
   if(req.params.team_id==="BYE") {
     res.redirect('/teams');

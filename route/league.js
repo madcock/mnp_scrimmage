@@ -69,7 +69,6 @@ router.get('/standings',function(req,res) {
 });
 
 router.get('/schedule',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/schedule.html').toString();
   const season = seasons.get(); //TODO Allow other seasons.
 
@@ -205,7 +204,6 @@ router.get('/new-teams',function(req,res) {
 });
 
 router.get('/ratings',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/ratings.html').toString();
   const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
@@ -218,7 +216,6 @@ router.get('/ratings',function(req,res) {
 });
 
 router.get('/newplayers',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/newplayers.html').toString();
   const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
@@ -231,7 +228,6 @@ router.get('/newplayers',function(req,res) {
 });
 
 router.get('/conduct',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/conduct.html').toString();
   const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
@@ -262,7 +258,6 @@ function format(num) {
 // TODO: This route seems like a huge security hole, but it is a
 //       convenient way to lookup a player key by name.
 router.get('/players',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/players.html').toString();
 
   const ukey = req.user.key || 'ANON';
@@ -305,7 +300,6 @@ router.get('/rosters.csv',function(req,res) {
 });
 
 router.get('/players/:key',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   const template = fs.readFileSync('./template/player.html').toString();
   // var p = players.get(req.params.key);
   // //TODO: Need something different than using players == users.

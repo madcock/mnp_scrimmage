@@ -72,7 +72,6 @@ router.get('/profile',function(req,res) {
 });
 
 router.get('/forgotpass',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   console.log('/forgotpass post');
   var template = fs.readFileSync('./template/forgotpass.html').toString();
   const ukey = req.user.key || 'ANON';
@@ -152,7 +151,6 @@ router.get('/me',function(req,res) {
 });
 
 router.get('/signup',function(req,res) {
-  const ukey = req.user.key || 'ANON';
   var template = fs.readFileSync('./template/signup.html').toString();
   var question = players.getQuestion();
 
