@@ -142,9 +142,6 @@
           "name": "Brandon Lorenz"
         },
         {
-          "name": "Dj Youngblood"
-        },
-        {
           "name": "Forrest McIntyre"
         },
         {
@@ -843,7 +840,18 @@
           "name": "Sookie Sookram"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-SWL-PGN",
+          "week": "2",
+          "date": "20260316",
+          "side": "vs",
+          "opp": {
+            "key": "SWL",
+            "name": "Specials When Lit"
+          }
+        }
+      ],
       "division": 0,
       "co_captain": "Peyton Conrad",
       "captain": "Ryan Tupper"
@@ -1018,9 +1026,6 @@
       "name": "Seacorns",
       "roster": [
         {
-          "name": "Claire Burke"
-        },
-        {
           "name": "Corbin Sheffels"
         },
         {
@@ -1043,15 +1048,12 @@
         },
         {
           "name": "Olivia Orni"
-        },
-        {
-          "name": "Shirley Recinos"
         }
       ],
       "schedule": [],
       "division": 0,
-      "co_captain": "Claire Burke",
-      "captain": "Danielle Crowson"
+      "captain": "Danielle Crowson",
+      "co_captain": "Olivia Orni"
     },
     "SHK": {
       "key": "SHK",
@@ -1223,7 +1225,18 @@
           "name": "Tim Collins"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-SWL-PGN",
+          "week": "2",
+          "date": "20260316",
+          "side": "@",
+          "opp": {
+            "key": "PGN",
+            "name": "Pinguins"
+          }
+        }
+      ],
       "division": 0,
       "co_captain": "John Garnett",
       "captain": "Matt Anderson WA"
@@ -1559,6 +1572,19 @@
           "venue": {
             "key": "TWP",
             "name": "Time Warp"
+          }
+        },
+        {
+          "match_key": "mnp-23-2-SWL-PGN",
+          "away_key": "SWL",
+          "away_name": "Specials When Lit",
+          "away_linked": true,
+          "home_key": "PGN",
+          "home_name": "Pinguins",
+          "home_linked": true,
+          "venue": {
+            "key": "8BT",
+            "name": "8-bit Arcade Bar"
           }
         }
       ]
