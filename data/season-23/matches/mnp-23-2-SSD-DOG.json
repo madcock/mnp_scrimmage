@@ -1,13 +1,13 @@
 {
   "key": "mnp-23-2-SSD-DOG",
-  "name": "WK2 SSD @ DOG",
+  "name": "WK2 SSD @ DOG : The Dog Bowl",
   "type": "manual",
   "week": "2",
   "round": 1,
-  "create_at": 1773676355893,
+  "create_at": 1773677138338,
   "date": "03/16/2026",
   "state": "pregame",
-  "state_at": 1773676355893,
+  "state_at": 1773677138338,
   "venue": {
     "key": "HND",
     "name": "Hounds Tooth",

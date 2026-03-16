@@ -531,7 +531,28 @@
           "name": "Rolo Carey"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-PYC-LAS",
+          "week": "2",
+          "date": "20260316",
+          "side": "vs",
+          "opp": {
+            "key": "PYC",
+            "name": "Pinballycule"
+          }
+        },
+        {
+          "match_key": "mnp-23-2-LAS-POW",
+          "week": "2",
+          "date": "20260316",
+          "side": "@",
+          "opp": {
+            "key": "POW",
+            "name": "The Power"
+          }
+        }
+      ],
       "division": 0,
       "co_captain": "Danielle Wilcox",
       "captain": "Jared Bayliss"
@@ -799,7 +820,18 @@
           "name": "Matt Galbraith"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-PYC-LAS",
+          "week": "2",
+          "date": "20260316",
+          "side": "@",
+          "opp": {
+            "key": "LAS",
+            "name": "Little League All Stars"
+          }
+        }
+      ],
       "division": 0,
       "captain": "Andyroo Callan",
       "co_captain": "Hunter Vogt"
@@ -1329,7 +1361,18 @@
           "name": "Val Gaifoulline"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-LAS-POW",
+          "week": "2",
+          "date": "20260316",
+          "side": "vs",
+          "opp": {
+            "key": "LAS",
+            "name": "Little League All Stars"
+          }
+        }
+      ],
       "division": 0,
       "co_captain": "MK Walker",
       "captain": "Matthew Harjo"
@@ -1620,6 +1663,32 @@
           "venue": {
             "key": "HND",
             "name": "Hounds Tooth"
+          }
+        },
+        {
+          "match_key": "mnp-23-2-PYC-LAS",
+          "away_key": "PYC",
+          "away_name": "Pinballycule",
+          "away_linked": true,
+          "home_key": "LAS",
+          "home_name": "Little League All Stars",
+          "home_linked": true,
+          "venue": {
+            "key": "IBX",
+            "name": "Ice Box"
+          }
+        },
+        {
+          "match_key": "mnp-23-2-LAS-POW",
+          "away_key": "LAS",
+          "away_name": "Little League All Stars",
+          "away_linked": true,
+          "home_key": "POW",
+          "home_name": "The Power",
+          "home_linked": true,
+          "venue": {
+            "key": "IBX",
+            "name": "Ice Box"
           }
         }
       ]
