@@ -13,7 +13,7 @@ for input_file in "$MATCH_DIR"/*.json; do
     COMMAND_OUTPUT=$(jq '.state' "$input_file")
 
     if [[ "$COMMAND_OUTPUT" != "$PREGAME" ]]; then
-        echo "mv $input_file $TEMP_DIR"
+        mv $input_file $TEMP_DIR
     fi
 done
 
@@ -31,6 +31,12 @@ node ../util/spawn-matches.js "$CURRENT_WEEK"
 
 # RESTORE any matches that have been played
 for input_file in "$TEMP_DIR"/*.json; do
-    echo "mv $input_file $MATCH_DIR"
+    mv $input_file $MATCH_DIR
 done
 rmdir "$TEMP_DIR"
+
+export APP_FOLDER=/home/mnpdocker/apps/mnpdocker
+pushd "$APP_FOLDER"
+./stop && ./start
+popd
+

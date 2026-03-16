@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "2",
   "round": 1,
-  "create_at": 1773357142333,
+  "create_at": 1773676355893,
   "date": "03/16/2026",
   "state": "pregame",
-  "state_at": 1773357142333,
+  "state_at": 1773676355893,
   "venue": {
     "key": "8BT",
     "name": "8-bit Arcade Bar",
@@ -67,7 +67,7 @@
         "name": "Breanna Felix",
         "sub": false,
         "num_played": 0,
-        "IPR": 3
+        "IPR": 2
       },
       {
         "key": "32d5bfe97a2dda54f7222330483a317fa1921cd3",
@@ -188,7 +188,7 @@
         "name": "Peyton Conrad",
         "sub": false,
         "num_played": 0,
-        "IPR": 2
+        "IPR": 3
       },
       {
         "key": "3d0e1049aea422f8f1dfb739e5ca97df3bd7da8a",

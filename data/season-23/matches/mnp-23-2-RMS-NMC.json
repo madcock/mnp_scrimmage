@@ -4,10 +4,10 @@
   "type": "manual",
   "week": "2",
   "round": 1,
-  "create_at": 1773357142332,
+  "create_at": 1773676355892,
   "date": "03/16/2026",
   "state": "pregame",
-  "state_at": 1773357142332,
+  "state_at": 1773676355892,
   "venue": {
     "key": "TWP",
     "name": "Time Warp",
@@ -51,7 +51,7 @@
         "name": "Eric Chambers",
         "sub": false,
         "num_played": 0,
-        "IPR": 4
+        "IPR": 5
       },
       {
         "key": "0e78ab4d527fc72c633824cb62b97b8678ebfcd5",
@@ -72,14 +72,14 @@
         "name": "Kevin Deschenes",
         "sub": false,
         "num_played": 0,
-        "IPR": 2
+        "IPR": 3
       },
       {
         "key": "604b1e85b839315ba568f54b0d956ecb63bc2c23",
         "name": "Matt Grunewald",
         "sub": false,
         "num_played": 0,
-        "IPR": 2
+        "IPR": 3
       },
       {
         "key": "fbada9b3d072be51395b2dece73221d119c44294",
@@ -107,7 +107,7 @@
         "name": "Scott Kelly",
         "sub": false,
         "num_played": 0,
-        "IPR": 3
+        "IPR": 4
       }
     ]
   },
@@ -158,14 +158,14 @@
         "name": "Jennell Baldwin",
         "sub": false,
         "num_played": 0,
-        "IPR": 1
+        "IPR": 2
       },
       {
         "key": "eb7b0c41578672eedf2601ef1c0b5c7240b6d1ac",
         "name": "Joe Ricci",
         "sub": false,
         "num_played": 0,
-        "IPR": 5
+        "IPR": 4
       },
       {
         "key": "d491094f6b30d6eb67ff3d38d0f44a866846613a",

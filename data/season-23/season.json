@@ -1015,7 +1015,18 @@
           "name": "Tyler Morgan"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-SSD-DOG",
+          "week": "2",
+          "date": "20260316",
+          "side": "@",
+          "opp": {
+            "key": "DOG",
+            "name": "The Stray Dogs"
+          }
+        }
+      ],
       "division": 0,
       "co_captain": "James Frost-Winn",
       "captain": "Lauren Aiello"
@@ -1359,7 +1370,18 @@
           "name": "Zachary Peeples"
         }
       ],
-      "schedule": [],
+      "schedule": [
+        {
+          "match_key": "mnp-23-2-SSD-DOG",
+          "week": "2",
+          "date": "20260316",
+          "side": "vs",
+          "opp": {
+            "key": "SSD",
+            "name": "Salty Sea Dogs"
+          }
+        }
+      ],
       "division": 0,
       "captain": "Glenden Hoyt",
       "co_captain": "Katja Rodgers"
@@ -1585,6 +1607,19 @@
           "venue": {
             "key": "8BT",
             "name": "8-bit Arcade Bar"
+          }
+        },
+        {
+          "match_key": "mnp-23-2-SSD-DOG",
+          "away_key": "SSD",
+          "away_name": "Salty Sea Dogs",
+          "away_linked": true,
+          "home_key": "DOG",
+          "home_name": "The Stray Dogs",
+          "home_linked": true,
+          "venue": {
+            "key": "HND",
+            "name": "Hounds Tooth"
           }
         }
       ]
