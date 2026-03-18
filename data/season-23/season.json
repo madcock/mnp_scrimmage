@@ -533,16 +533,6 @@
       ],
       "schedule": [
         {
-          "match_key": "mnp-23-2-PYC-LAS",
-          "week": "2",
-          "date": "20260316",
-          "side": "vs",
-          "opp": {
-            "key": "PYC",
-            "name": "Pinballycule"
-          }
-        },
-        {
           "match_key": "mnp-23-2-LAS-POW",
           "week": "2",
           "date": "20260316",
@@ -820,18 +810,7 @@
           "name": "Matt Galbraith"
         }
       ],
-      "schedule": [
-        {
-          "match_key": "mnp-23-2-PYC-LAS",
-          "week": "2",
-          "date": "20260316",
-          "side": "@",
-          "opp": {
-            "key": "LAS",
-            "name": "Little League All Stars"
-          }
-        }
-      ],
+      "schedule": [],
       "division": 0,
       "captain": "Andyroo Callan",
       "co_captain": "Hunter Vogt"
@@ -1119,9 +1098,6 @@
           "name": "Nell Rose"
         },
         {
-          "name": "Nicole Svoboda"
-        },
-        {
           "name": "Nix Brown"
         },
         {
@@ -1132,6 +1108,9 @@
         },
         {
           "name": "Zachary Turner"
+        },
+        {
+          "name": "Jerry Rippy"
         }
       ],
       "schedule": [],
@@ -1663,19 +1642,6 @@
           "venue": {
             "key": "HND",
             "name": "Hounds Tooth"
-          }
-        },
-        {
-          "match_key": "mnp-23-2-PYC-LAS",
-          "away_key": "PYC",
-          "away_name": "Pinballycule",
-          "away_linked": true,
-          "home_key": "LAS",
-          "home_name": "Little League All Stars",
-          "home_linked": true,
-          "venue": {
-            "key": "IBX",
-            "name": "Ice Box"
           }
         },
         {
