@@ -31,7 +31,7 @@
           "name": "Scott Lee WA"
         },
         {
-          "name": "Seth Smith"
+          "name": "Sherae Lascelles"
         },
         {
           "name": "Thomas Homan"
@@ -861,6 +861,16 @@
             "key": "SWL",
             "name": "Specials When Lit"
           }
+        },
+        {
+          "match_key": "mnp-23-3-PGN-SWL",
+          "week": "3",
+          "date": "20260420",
+          "side": "@",
+          "opp": {
+            "key": "SWL",
+            "name": "Specials When Lit"
+          }
         }
       ],
       "division": 0,
@@ -1089,6 +1099,9 @@
           "name": "Janelle Oakley"
         },
         {
+          "name": "Jerry Rippy"
+        },
+        {
           "name": "Kat Martinez"
         },
         {
@@ -1108,9 +1121,6 @@
         },
         {
           "name": "Zachary Turner"
-        },
-        {
-          "name": "Jerry Rippy"
         }
       ],
       "schedule": [],
@@ -1140,9 +1150,6 @@
         },
         {
           "name": "Jette Chhoun"
-        },
-        {
-          "name": "Matt Slater"
         },
         {
           "name": "Ryan Slanicka"
@@ -1253,6 +1260,16 @@
           "week": "2",
           "date": "20260316",
           "side": "@",
+          "opp": {
+            "key": "PGN",
+            "name": "Pinguins"
+          }
+        },
+        {
+          "match_key": "mnp-23-3-PGN-SWL",
+          "week": "3",
+          "date": "20260420",
+          "side": "vs",
           "opp": {
             "key": "PGN",
             "name": "Pinguins"
@@ -1655,6 +1672,29 @@
           "venue": {
             "key": "IBX",
             "name": "Ice Box"
+          }
+        }
+      ]
+    },
+    {
+      "n": "3",
+      "label": "WEEK 3",
+      "code": "WK3",
+      "isPlayoffs": false,
+      "isSpecial": false,
+      "date": "04/20/2026",
+      "matches": [
+        {
+          "match_key": "mnp-23-3-PGN-SWL",
+          "away_key": "PGN",
+          "away_name": "Pinguins",
+          "away_linked": true,
+          "home_key": "SWL",
+          "home_name": "Specials When Lit",
+          "home_linked": true,
+          "venue": {
+            "key": "8BT",
+            "name": "8-bit Arcade Bar"
           }
         }
       ]
