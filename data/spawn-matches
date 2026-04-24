@@ -1,5 +1,5 @@
 #!/bin/bash
-export CURRENT_WEEK=3
+export CURRENT_WEEK=2
 export CURRENT_SEASON=season-23
 
 PREGAME="\"pregame\""
