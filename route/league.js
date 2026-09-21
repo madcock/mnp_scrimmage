@@ -5,6 +5,12 @@ const mustache = require('mustache');
 
 const config = require('../config');
 const ANNOUNCEMENTS_TEMPLATE_URL = config.ANNOUNCEMENTS_TEMPLATE_URL;
+const LEAGUERULES_TEMPLATE_URL = config.LEAGUERULES_TEMPLATE_URL;
+const MATCHRULES_TEMPLATE_URL = config.MATCHRULES_TEMPLATE_URL;
+const NEWPLAYERS_TEMPLATE_URL = config.NEWPLAYERS_TEMPLATE_URL;
+const RATINGS_TEMPLATE_URL = config.RATINGS_TEMPLATE_URL;
+const HANDICAP_TEMPLATE_URL = config.HANDICAP_TEMPLATE_URL;
+
 const https = require("https");
 
 // TODO: This router is too big. There should be a closer 1:1 relationship with models.
@@ -157,30 +163,48 @@ players = list.filter(p => p.num_matches > 0);
   res.send(html);
 });
 
-router.get('/leaguerules',function(req,res) {
-  res.sendFile('template/leaguerules.html', {root: '.'});
+// If LEAGUERULES_TEMPLATE_URL doesn't exist, or has error, use latest leaguerules.html as leaguerulesContent
+var leaguerulesContent = fs.readFileSync('./template/leaguerules.html').toString();
 
-  // TODO: Provide better formatting for generated html
-  // const template = fs.readFileSync('./template/leaguerules.html').toString();
-  // const html = mustache.render(base,{
-  //   title: 'League Rules'
-  // },{
-  //   content: template
-  // });
-  // res.send(html);
+router.get('/leaguerules',function(req,res) {
+  // refresh announcements
+  https.get(LEAGUERULES_TEMPLATE_URL, response => {
+    leaguerulesContent = ""
+    response.on('data',(chunk)=>{
+      leaguerulesContent+=chunk.toString();
+    });
+  });
+
+  const ukey = req.user.key || 'ANON';
+  const html = mustache.render(base,{
+    title: 'League Rules',
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
+  },{
+    content: leaguerulesContent
+  });
+  res.send(html);
 });
 
-router.get('/matchrules',function(req,res) {
-  res.sendFile('template/matchrules.html', {root: '.'});
+// If MATCHRULES_TEMPLATE_URL doesn't exist, or has error, use latest matchrules.html as matchrulesContent
+var matchrulesContent = fs.readFileSync('./template/matchrules.html').toString();
 
-  // TODO: Provide better formatting for generated html
-  // const template = fs.readFileSync('./template/matchrules.html').toString();
-  // const html = mustache.render(base,{
-  //   title: 'Match Rules'
-  // },{
-  //   content: template
-  // });
-  // res.send(html);
+router.get('/matchrules',function(req,res) {
+  // refresh announcements
+  https.get(MATCHRULES_TEMPLATE_URL, response => {
+    matchrulesContent = ""
+    response.on('data',(chunk)=>{
+      matchrulesContent+=chunk.toString();
+    });
+  });
+
+  const ukey = req.user.key || 'ANON';
+  const html = mustache.render(base,{
+    title: 'Match Rules',
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
+  },{
+    content: matchrulesContent
+  });
+  res.send(html);
 });
 
 router.get('/scoresheet',function(req,res) {
@@ -203,26 +227,68 @@ router.get('/new-teams',function(req,res) {
   res.send(html);
 });
 
+// If RATINGS_TEMPLATE_URL doesn't exist, or has error, use latest ratings.html as ratingsContent
+var ratingsContent = fs.readFileSync('./template/ratings.html').toString();
+
 router.get('/ratings',function(req,res) {
-  const template = fs.readFileSync('./template/ratings.html').toString();
+  // refresh announcements
+  https.get(RATINGS_TEMPLATE_URL, response => {
+    ratingsContent = ""
+    response.on('data',(chunk)=>{
+      ratingsContent+=chunk.toString();
+    });
+  });
+
   const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
     title: 'Ratings',
     playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   },{
-    content: template
+    content: ratingsContent
   });
   res.send(html);
 });
 
+// If NEWPLAYERS_TEMPLATE_URL doesn't exist, or has error, use latest newplayers.html as newplayersContent
+var newplayersContent = fs.readFileSync('./template/newplayers.html').toString();
+
 router.get('/newplayers',function(req,res) {
-  const template = fs.readFileSync('./template/newplayers.html').toString();
+  // refresh announcements
+  https.get(NEWPLAYERS_TEMPLATE_URL, response => {
+    newplayersContent = ""
+    response.on('data',(chunk)=>{
+      newplayersContent+=chunk.toString();
+    });
+  });
+
   const ukey = req.user.key || 'ANON';
   const html = mustache.render(base,{
     title: 'New Player Information',
     playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
   },{
-    content: template
+    content: newplayersContent
+  });
+  res.send(html);
+});
+
+// If HANDICAP_TEMPLATE_URL doesn't exist, or has error, use latest handicapping.html as handicapContent
+var handicapContent = fs.readFileSync('./template/handicapping.html').toString();
+
+router.get('/handicapping',function(req,res) {
+  // refresh announcements
+  https.get(HANDICAP_TEMPLATE_URL, response => {
+    handicapContent = ""
+    response.on('data',(chunk)=>{
+      handicapContent+=chunk.toString();
+    });
+  });
+
+  const ukey = req.user.key || 'ANON';
+  const html = mustache.render(base,{
+    title: 'Handicapping',
+    playerFN: players.get(ukey) ? players.get(ukey).name.split(' ')[0] : "PLAYER"
+  },{
+    content: handicapContent
   });
   res.send(html);
 });
@@ -323,7 +389,7 @@ router.get('/players/:key',function(req,res) {
     // ifpa_rank: ifpa.rank(name) || 'Unknown',
     ipr: IPR.forName(name) || 'Unknown',
     // TODO: fullStats.history might be a case for moving history into divisions
-    history: fullStats.history
+    history: fullStats.history.sort((a, b) => a.week - b.week)
   },{
     content: template
   });
