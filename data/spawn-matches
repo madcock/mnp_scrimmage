@@ -1,6 +1,6 @@
 #!/bin/bash
-export CURRENT_WEEK=2
-export CURRENT_SEASON=season-23
+export CURRENT_WEEK=1
+export CURRENT_SEASON=season-24
 
 PREGAME="\"pregame\""
 MATCH_DIR="$CURRENT_SEASON/matches"
